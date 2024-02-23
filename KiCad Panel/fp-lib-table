@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Amoeba_Choc_Nar")(type "KiCad")(uri "/Users/mmccoyd/Documents/keyboard/AmoebaChocNarrow/KiCad Amoeba/lib")(options "")(descr ""))
+)
