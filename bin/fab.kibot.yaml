@@ -122,7 +122,7 @@ outputs:
     type: bom
     dir: pcba
     options:
-      exclude_filter: '_only_smd'
+      exclude_filter: '_only_tht'
       output: '%f_%i.%x'
       ref_separator: ','
       group_fields: ['Value', 'Footprint', 'LCSC Part #']
