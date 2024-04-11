@@ -1,0 +1,68 @@
+name: Document
+on:
+  workflow_dispatch:
+    inputs:
+      board:
+        description: Keyboard to create docs for
+        required: true
+        type: choice
+        options:
+        - amoeba
+        - amoeba
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./${{ inputs.board }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Create doc_out folder with write access
+        run: |
+          mkdir doc_out
+          ls -la 
+
+      - name: KiBot
+        uses: INTI-CMNB/KiBot@v2_dk6
+        with:
+          config: ./bin/doc.kibot.yaml
+          schema: ./${{ inputs.board }}/${{ inputs.board }}.kicad_sch
+          board: ./${{ inputs.board }}/${{ inputs.board }}.kicad_pcb
+          dir: ./${{ inputs.board }}
+          verbose: 1
+
+      - name: Resize render, zip
+        run: |
+          convert doc_out/${{ inputs.board }}-3D_top.png -resize 1200 doc_out/${{ inputs.board }}-3D_1200.png
+          ls -la . doc_out
+          cd doc_out
+          zip ../${{ inputs.board }}-Doc.zip *.html *.png *.svg
+          
+      - name: Upload Docs Zip
+        uses: actions/upload-artifact@v3
+        with:
+          name: ${{ inputs.board }}-docs
+          path: ./${{ inputs.board }}/${{ inputs.board }}-Doc.zip
+
+      ####
+      # Logs
+      - name: Debug list directory
+        if: ${{ always() }}
+        run: |
+          pwd
+          ls -la . doc_out
+
+      - name: Upload Logs
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v3
+        with:
+          name: ${{ inputs.board }}-docs_debug_logs
+          path: |
+            ./${{ inputs.board }}/*.log
+            ./${{ inputs.board }}/*.txt
+            ./${{ inputs.board }}/doc_out/*.log
+            ./${{ inputs.board }}/doc_out/*.txt
