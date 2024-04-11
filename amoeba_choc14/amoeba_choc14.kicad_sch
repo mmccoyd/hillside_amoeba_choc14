@@ -955,7 +955,7 @@
 			(uuid "1fe6e741-71ef-472e-9b74-aea2684aa19b")
 		)
 		(instances
-			(project "AmoebaChocNarrow"
+			(project "amoeba_choc14"
 				(path "/c1f16e18-f6ca-463c-9cde-8f3fe4c41e25"
 					(reference "J3")
 					(unit 1)
@@ -1024,7 +1024,7 @@
 			(uuid "1971a7cb-4e3e-4137-bd01-c56b5ce88192")
 		)
 		(instances
-			(project "AmoebaChocNarrow"
+			(project "amoeba_choc14"
 				(path "/c1f16e18-f6ca-463c-9cde-8f3fe4c41e25"
 					(reference "J1")
 					(unit 1)
@@ -1092,7 +1092,7 @@
 			(uuid "52709795-2d9e-4a06-bd06-327bcc119ed2")
 		)
 		(instances
-			(project "AmoebaChocNarrow"
+			(project "amoeba_choc14"
 				(path "/c1f16e18-f6ca-463c-9cde-8f3fe4c41e25"
 					(reference "SW1")
 					(unit 1)
@@ -1178,7 +1178,7 @@
 			(uuid "e3524925-608a-4f83-9eda-a70841df930e")
 		)
 		(instances
-			(project "AmoebaChocNarrow"
+			(project "amoeba_choc14"
 				(path "/c1f16e18-f6ca-463c-9cde-8f3fe4c41e25"
 					(reference "D1")
 					(unit 1)
@@ -1245,7 +1245,7 @@
 			(uuid "f7de3858-622f-4850-b740-ef4cac3f640e")
 		)
 		(instances
-			(project "AmoebaChocNarrow"
+			(project "amoeba_choc14"
 				(path "/c1f16e18-f6ca-463c-9cde-8f3fe4c41e25"
 					(reference "J4")
 					(unit 1)
@@ -1314,7 +1314,7 @@
 			(uuid "d8f42072-86bf-47a7-8bfc-c3dce1124d1f")
 		)
 		(instances
-			(project "AmoebaChocNarrow"
+			(project "amoeba_choc14"
 				(path "/c1f16e18-f6ca-463c-9cde-8f3fe4c41e25"
 					(reference "J2")
 					(unit 1)

@@ -8,7 +8,7 @@
 	)
 	(paper "USLetter")
 	(title_block
-		(title "Amoeba Choc Narrow")
+		(title "Amoeba Choc 14")
 		(date "2024-02-22")
 		(rev "0.1.0-alpha")
 		(comment 1 "and sturdier column walls; with socket STEP file. ")
@@ -185,7 +185,7 @@
 		(property ki_fp_filters "D*DO?35*")
 		(path "/995e5399-6b18-4440-8934-509fa3256a09")
 		(sheetname "Root")
-		(sheetfile "AmoebaChocNarrow.kicad_sch")
+		(sheetfile "amoeba_choc14.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.65 1)
@@ -477,7 +477,7 @@
 		)
 		(path "/92f12d88-437e-4842-945c-acf7224e04b5")
 		(sheetname "Root")
-		(sheetfile "AmoebaChocNarrow.kicad_sch")
+		(sheetfile "amoeba_choc14.kicad_sch")
 		(attr through_hole)
 		(private_layers "Eco2.User" "User.9")
 		(fp_line
@@ -1471,7 +1471,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/5b1b5d84-6b47-4925-ad25-46bf2cb38769")
 		(sheetname "Root")
-		(sheetfile "AmoebaChocNarrow.kicad_sch")
+		(sheetfile "amoeba_choc14.kicad_sch")
 		(attr through_hole)
 		(fp_circle
 			(center 0 0)
@@ -1614,7 +1614,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/cbc5008d-03ef-4b47-8b5b-d4c702f87cdc")
 		(sheetname "Root")
-		(sheetfile "AmoebaChocNarrow.kicad_sch")
+		(sheetfile "amoeba_choc14.kicad_sch")
 		(attr through_hole)
 		(fp_circle
 			(center 0 0)
@@ -1757,7 +1757,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/11112d51-9926-4d49-8f37-1b46a19db293")
 		(sheetname "Root")
-		(sheetfile "AmoebaChocNarrow.kicad_sch")
+		(sheetfile "amoeba_choc14.kicad_sch")
 		(attr through_hole)
 		(fp_circle
 			(center 0 0)
@@ -1900,7 +1900,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/d2879ef5-5b48-4be7-abea-a35819887308")
 		(sheetname "Root")
-		(sheetfile "AmoebaChocNarrow.kicad_sch")
+		(sheetfile "amoeba_choc14.kicad_sch")
 		(attr through_hole)
 		(fp_circle
 			(center 0 0)
