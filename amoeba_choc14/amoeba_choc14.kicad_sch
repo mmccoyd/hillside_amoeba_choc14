@@ -783,6 +783,12 @@
 		)
 	)
 	(junction
+		(at 129.54 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "183dae6f-9a48-40f0-a846-394abfadc2a9")
+	)
+	(junction
 		(at 129.54 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -826,17 +832,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 106.68) (xy 129.54 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69ea721e-f4a4-4302-95aa-19ebd3be8bc1")
-	)
-	(wire
-		(pts
-			(xy 129.54 100.33) (xy 129.54 106.68)
+			(xy 129.54 100.33) (xy 129.54 101.6)
 		)
 		(stroke
 			(width 0)
@@ -853,6 +849,26 @@
 			(type default)
 		)
 		(uuid "8eb3858b-709f-4e53-baed-cc6fe735612c")
+	)
+	(wire
+		(pts
+			(xy 129.54 106.68) (xy 129.54 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3c062e0-eb55-4cf6-abcc-002dd1648d0c")
+	)
+	(wire
+		(pts
+			(xy 129.54 101.6) (xy 129.54 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d58cd7a5-ac0b-4f98-8814-c613e874b86a")
 	)
 	(text_box "Single switch Amoeba\nfor Dactyl choc keyboard"
 		(exclude_from_sim no)
@@ -874,7 +890,7 @@
 		(uuid "c2d5a81f-6ebf-43aa-b0df-b939638d1afe")
 	)
 	(label "col"
-		(at 129.54 111.76 180)
+		(at 129.54 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -967,6 +983,83 @@
 			(project "amoeba_choc14"
 				(path "/c1f16e18-f6ca-463c-9cde-8f3fe4c41e25"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Conn_01x01_Pin_1")
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 124.46 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11485d47-afbe-4c4b-9209-8f8ca9592b67")
+		(property "Reference" "J5"
+			(at 125.095 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 126.365 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Amoeba_Choc_Nar:Pin_D0.8mm_L7.0mm"
+			(at 124.46 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "do not fit"
+			(at 124.46 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b55e122-0b9e-48c6-aee4-5236f001d9d8")
+		)
+		(instances
+			(project "amoeba_choc14"
+				(path "/c1f16e18-f6ca-463c-9cde-8f3fe4c41e25"
+					(reference "J5")
 					(unit 1)
 				)
 			)

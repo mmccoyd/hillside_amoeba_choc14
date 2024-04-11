@@ -9,7 +9,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "Amoeba Choc 14")
-		(date "2024-02-22")
+		(date "2024-04-11")
 		(rev "0.1.0-alpha")
 		(comment 1 "and sturdier column walls; with socket STEP file. ")
 		(comment 2 "allows choc 18 mm or narrower Dactyl column spacing ")
@@ -100,6 +100,7 @@
 		(property "Reference" "D1"
 			(at 3.2 0.7875 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "854e4b62-499e-461b-8b6b-567fefd6875c")
 			(effects
 				(font
@@ -1438,6 +1439,153 @@
 	)
 	(footprint "Amoeba_Choc_Nar:Pin_D0.8mm_L7.0mm"
 		(layer "B.Cu")
+		(uuid "02997939-0db8-4966-a587-d4d7c15d6a47")
+		(at 134.9 112.75 180)
+		(descr "solder Pin_ diameter 0.8mm, hole diameter 0.8mm (press fit), length 7.0mm")
+		(tags "solder Pin_ press fit")
+		(property "Reference" "J5"
+			(at -2.95 0.05 180)
+			(layer "B.Fab")
+			(uuid "09da0d61-35c2-48c4-9496-d35a511cd117")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 0 2.05 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "25dcd24f-3fc1-4432-8aaf-d8d4dcbcf6f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "Amoeba_Choc_Nar:Pin_D0.8mm_L7.0mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "03201b9f-afac-498e-a06c-cddfe86823d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f34b3140-23ed-487f-8c2a-dd3c8db8b38f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "99f0f747-8f92-49d1-b9d8-a977f7f853b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Config" "do not fit"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ed5c168c-2a5e-4aa3-80db-270741f8a640")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/11485d47-afbe-4c4b-9209-8f8ca9592b67")
+		(sheetname "Root")
+		(sheetfile "amoeba_choc14.kicad_sch")
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 0.8 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill none)
+			(layer "B.Fab")
+			(uuid "a9c8aa89-6a2e-4883-883e-e9fe5702fbb9")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.5 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill none)
+			(layer "B.Fab")
+			(uuid "aceaf367-c1a9-4295-9306-389df9cd9ea3")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -0.3 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d4115908-54a7-44c5-b300-22a62814cccd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0 180)
+			(size 1.6 1.6)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 3 "/col")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "cc7ed5d3-534e-460c-83b0-d76c15bdeb10")
+		)
+		(model "${KICAD6_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 0.8 0.8 0.7)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Amoeba_Choc_Nar:Pin_D0.8mm_L7.0mm"
+		(layer "B.Cu")
 		(uuid "1312ff0d-8a52-4146-ab6b-2188c7f6440d")
 		(at 134.7 104.575 180)
 		(descr "solder Pin_ diameter 0.8mm, hole diameter 0.8mm (press fit), length 7.0mm")
@@ -1716,7 +1864,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.8 -1 0)
+			(at -2.05 0.85 0)
 			(layer "B.Fab")
 			(uuid "91fd2e33-a65b-4eaa-b3b1-d2958db5d14f")
 			(effects
@@ -1873,7 +2021,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at -1.4 -1 0)
+			(at 1.95 1.05 0)
 			(layer "B.Fab")
 			(uuid "25a5d4fb-6787-4be9-a66c-fa02be165201")
 			(effects
@@ -2065,6 +2213,16 @@
 		)
 	)
 	(gr_line
+		(start 134.9 113.7)
+		(end 134.9 114.2)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "1f29e56b-e98d-4b9f-a190-8cf2106b479d")
+	)
+	(gr_line
 		(start 135.75 107.8)
 		(end 136.6 107.8)
 		(stroke
@@ -2073,6 +2231,17 @@
 		)
 		(layer "B.SilkS")
 		(uuid "21ad5041-dd26-4ade-b9d9-2b5f4b2ac604")
+	)
+	(gr_rect
+		(start 124.3 102.4)
+		(end 130.8 106.2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill solid)
+		(layer "B.SilkS")
+		(uuid "307c519a-c3bd-4b46-9989-ede96f64aad0")
 	)
 	(gr_line
 		(start 134.875 116.275)
@@ -2123,6 +2292,16 @@
 		)
 		(layer "F.SilkS")
 		(uuid "09190404-6fa2-460e-91ae-908e81541ee6")
+	)
+	(gr_line
+		(start 134.9 113.7)
+		(end 134.9 114.2)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0b212032-8700-4b43-92da-2bda591b0080")
 	)
 	(gr_line
 		(start 123.325 107.8)
@@ -2409,36 +2588,44 @@
 		(uuid "b57809ce-4470-43b2-9010-1beb0ca8875c")
 	)
 	(segment
+		(start 133.575 111.425)
+		(end 133.575 105.7)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "024d9e90-fb84-4bae-9db8-b01fee1119c2")
+	)
+	(segment
+		(start 134.9 112.75)
+		(end 134.9 115.125)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "54381968-9075-4d9c-bd9f-5672ead70225")
+	)
+	(segment
+		(start 134.9 112.75)
+		(end 133.575 111.425)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "9a1f430e-5fbd-4e14-a57c-827969e65337")
+	)
+	(segment
+		(start 134.9 115.125)
+		(end 134.875 115.15)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "9cd0ab5d-331d-4ffc-a6db-e675ccf675d5")
+	)
+	(segment
 		(start 133.575 105.7)
 		(end 134.7 104.575)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 3)
-		(uuid "4fe94e99-6e21-4fb2-a5ff-dc2c7f7700c9")
-	)
-	(segment
-		(start 134.875 115.15)
-		(end 134.875 111.9)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 3)
-		(uuid "7dcfe5ad-8223-4c18-aade-e3b39d3bebb4")
-	)
-	(segment
-		(start 134.875 111.9)
-		(end 133.575 110.6)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 3)
-		(uuid "abc91f1b-0dcc-495d-a21c-55df99c794d2")
-	)
-	(segment
-		(start 133.575 110.6)
-		(end 133.575 105.7)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 3)
-		(uuid "f5efae09-dc45-49be-875f-27e11902b520")
+		(uuid "ead95279-1f80-4de1-b9d3-0619c6f6df48")
 	)
 	(segment
 		(start 134.124999 115.900001)
