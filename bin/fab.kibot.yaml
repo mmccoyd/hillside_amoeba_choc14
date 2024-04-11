@@ -125,6 +125,7 @@ outputs:
       output: '%f_%i.%x'
       ignore_dnf: true
       exclude_marked_in_sch: true
+      exclude_marked_in_pcb: true
       #dnf_filter: '_kibom_dnf_Config'
       ref_separator: ','
       group_fields: ['Value', 'Footprint', 'LCSC Part #']
