@@ -951,6 +951,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" "do not fit"
+			(at 133.35 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1fe6e741-71ef-472e-9b74-aea2684aa19b")
 		)
@@ -1020,6 +1029,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" "do not fit"
+			(at 129.54 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1971a7cb-4e3e-4137-bd01-c56b5ce88192")
 		)
@@ -1077,6 +1095,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 134.62 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "do not fit"
 			(at 134.62 106.68 0)
 			(effects
 				(font
@@ -1180,6 +1207,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 144.78 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0a513e42-6d9c-4aae-b211-334da4a090c5")
 		)
@@ -1250,6 +1286,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" "do not fit"
+			(at 158.75 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f7de3858-622f-4850-b740-ef4cac3f640e")
 		)
@@ -1311,6 +1356,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 129.54 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "do not fit"
 			(at 129.54 121.92 0)
 			(effects
 				(font

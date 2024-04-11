@@ -557,6 +557,12 @@
           "label": "LCSC",
           "name": "LCSC",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Config",
+          "name": "Config",
+          "show": true
         }
       ],
       "filter_string": "",
