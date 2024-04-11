@@ -123,6 +123,7 @@ outputs:
     dir: pcba
     options:
       output: '%f_%i.%x'
+      dnf_filter: '_kibom_dnf_Config'
       ref_separator: ','
       group_fields: ['Value', 'Footprint', 'LCSC Part #']
       columns:
