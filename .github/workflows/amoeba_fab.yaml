@@ -2,8 +2,8 @@ name: Fab amoeba on push KiCad
 on:
   push:
     paths:
-    - 'amoeba/*.kicad_sch'
-    - 'amoeba/*.kicad_pcb'
+    - 'amoeba_choc14/*.kicad_sch'
+    - 'amoeba_choc14/*.kicad_pcb'
   workflow_dispatch:
 
 jobs:
@@ -11,4 +11,4 @@ jobs:
     name: Call Fabricate
     uses: ./.github/workflows/fabricate.yaml
     with:
-      board: amoeba
+      board: amoeba_choc14
