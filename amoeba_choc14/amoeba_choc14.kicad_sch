@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "c1f16e18-f6ca-463c-9cde-8f3fe4c41e25")
 	(paper "USLetter")
+	(title_block
+		(title "Amoeba Choc 14")
+		(date "2024-04-11")
+		(rev "0.1.0-alpha")
+		(comment 3 "A choc keyboard single-switch Amoeba PCB with Mill-Max hotswap")
+	)
 	(lib_symbols
 		(symbol "Conn_01x01_Pin_1"
 			(pin_numbers hide)
@@ -783,26 +789,26 @@
 		)
 	)
 	(junction
-		(at 129.54 101.6)
+		(at 124.46 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "183dae6f-9a48-40f0-a846-394abfadc2a9")
 	)
 	(junction
-		(at 129.54 106.68)
+		(at 124.46 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68196bce-6ecb-48a7-b737-c58066717802")
 	)
 	(junction
-		(at 153.67 116.84)
+		(at 148.59 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f65e2513-3c6e-407f-be63-ef2ecb29cdb3")
 	)
 	(wire
 		(pts
-			(xy 148.59 111.76) (xy 153.67 116.84)
+			(xy 143.51 107.95) (xy 148.59 113.03)
 		)
 		(stroke
 			(width 0)
@@ -812,7 +818,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 106.68) (xy 148.59 111.76)
+			(xy 143.51 102.87) (xy 143.51 107.95)
 		)
 		(stroke
 			(width 0)
@@ -822,7 +828,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 116.84) (xy 153.67 116.84)
+			(xy 133.35 113.03) (xy 148.59 113.03)
 		)
 		(stroke
 			(width 0)
@@ -832,7 +838,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 100.33) (xy 129.54 101.6)
+			(xy 124.46 96.52) (xy 124.46 97.79)
 		)
 		(stroke
 			(width 0)
@@ -842,7 +848,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 106.68) (xy 140.97 106.68)
+			(xy 134.62 102.87) (xy 135.89 102.87)
 		)
 		(stroke
 			(width 0)
@@ -852,7 +858,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 106.68) (xy 129.54 116.84)
+			(xy 124.46 102.87) (xy 124.46 113.03)
 		)
 		(stroke
 			(width 0)
@@ -862,7 +868,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 101.6) (xy 129.54 106.68)
+			(xy 124.46 97.79) (xy 124.46 102.87)
 		)
 		(stroke
 			(width 0)
@@ -870,13 +876,32 @@
 		)
 		(uuid "d58cd7a5-ac0b-4f98-8814-c613e874b86a")
 	)
-	(text_box "Single switch Amoeba\nfor Dactyl choc keyboard"
+	(text_box "${TITLE}"
 		(exclude_from_sim no)
-		(at 107.95 76.2 0)
-		(size 69.85 12.7)
+		(at 105.41 13.97 0)
+		(size 67.31 11.43)
 		(stroke
 			(width 0)
 			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 4 4)
+			)
+			(justify left top)
+		)
+		(uuid "9d526ae6-e5c5-4bf7-8078-b9f338072c9e")
+	)
+	(text_box "Single switch Amoeba\nfor Dactyl choc keyboard"
+		(exclude_from_sim no)
+		(at 102.87 63.5 0)
+		(size 69.85 12.7)
+		(stroke
+			(width 0)
+			(type dash)
 		)
 		(fill
 			(type none)
@@ -890,7 +915,7 @@
 		(uuid "c2d5a81f-6ebf-43aa-b0df-b939638d1afe")
 	)
 	(label "col"
-		(at 129.54 110.49 180)
+		(at 124.46 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -901,7 +926,7 @@
 		(uuid "72ad366c-6f29-4184-9b20-cdf3beebe96e")
 	)
 	(label "row"
-		(at 142.24 116.84 0)
+		(at 137.16 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -914,7 +939,7 @@
 	(symbol
 		(lib_name "Conn_01x01_Pin_2")
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 133.35 116.84 0)
+		(at 128.27 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -923,7 +948,7 @@
 		(fields_autoplaced yes)
 		(uuid "11112d51-9926-4d49-8f37-1b46a19db293")
 		(property "Reference" "J3"
-			(at 133.985 114.3 0)
+			(at 128.905 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -931,7 +956,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Pin"
-			(at 135.255 115.57 90)
+			(at 130.175 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -941,7 +966,7 @@
 			)
 		)
 		(property "Footprint" "Amoeba_Choc_Nar:Pin_D0.8mm_L7.0mm"
-			(at 133.35 116.84 0)
+			(at 128.27 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -950,7 +975,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 116.84 0)
+			(at 128.27 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -959,7 +984,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 133.35 116.84 0)
+			(at 128.27 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -968,7 +993,7 @@
 			)
 		)
 		(property "Config" "do not fit"
-			(at 133.35 116.84 0)
+			(at 128.27 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -991,7 +1016,7 @@
 	(symbol
 		(lib_name "Conn_01x01_Pin_1")
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 124.46 101.6 0)
+		(at 119.38 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1000,7 +1025,7 @@
 		(fields_autoplaced yes)
 		(uuid "11485d47-afbe-4c4b-9209-8f8ca9592b67")
 		(property "Reference" "J5"
-			(at 125.095 99.06 0)
+			(at 120.015 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1008,7 +1033,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Pin"
-			(at 126.365 100.33 90)
+			(at 121.285 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1018,7 +1043,7 @@
 			)
 		)
 		(property "Footprint" "Amoeba_Choc_Nar:Pin_D0.8mm_L7.0mm"
-			(at 124.46 101.6 0)
+			(at 119.38 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1027,7 +1052,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 124.46 101.6 0)
+			(at 119.38 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1036,7 +1061,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 101.6 0)
+			(at 119.38 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1045,7 +1070,7 @@
 			)
 		)
 		(property "Config" "do not fit"
-			(at 124.46 101.6 0)
+			(at 119.38 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1068,7 +1093,7 @@
 	(symbol
 		(lib_name "Conn_01x01_Pin_3")
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 129.54 95.25 270)
+		(at 124.46 91.44 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1077,7 +1102,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b1b5d84-6b47-4925-ad25-46bf2cb38769")
 		(property "Reference" "J1"
-			(at 130.81 95.885 90)
+			(at 125.73 92.075 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1086,7 +1111,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Pin"
-			(at 130.81 97.155 90)
+			(at 125.73 93.345 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1096,7 +1121,7 @@
 			)
 		)
 		(property "Footprint" "Amoeba_Choc_Nar:Pin_D0.8mm_L7.0mm"
-			(at 129.54 95.25 0)
+			(at 124.46 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1105,7 +1130,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 95.25 0)
+			(at 124.46 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1114,7 +1139,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 95.25 0)
+			(at 124.46 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1123,7 +1148,7 @@
 			)
 		)
 		(property "Config" "do not fit"
-			(at 129.54 95.25 0)
+			(at 124.46 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1145,7 +1170,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 134.62 106.68 0)
+		(at 129.54 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1154,7 +1179,7 @@
 		(fields_autoplaced yes)
 		(uuid "92f12d88-437e-4842-945c-acf7224e04b5")
 		(property "Reference" "SW1"
-			(at 134.62 100.33 0)
+			(at 129.54 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1162,7 +1187,7 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 134.62 102.87 0)
+			(at 129.54 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1170,7 +1195,7 @@
 			)
 		)
 		(property "Footprint" "Amoeba_Choc_Nar:pg1350-hotswap"
-			(at 134.62 106.68 0)
+			(at 129.54 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1179,7 +1204,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 106.68 0)
+			(at 129.54 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1188,7 +1213,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 106.68 0)
+			(at 129.54 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1197,7 +1222,7 @@
 			)
 		)
 		(property "Config" "do not fit"
-			(at 134.62 106.68 0)
+			(at 129.54 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1222,7 +1247,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 144.78 106.68 180)
+		(at 139.7 102.87 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1231,7 +1256,7 @@
 		(fields_autoplaced yes)
 		(uuid "995e5399-6b18-4440-8934-509fa3256a09")
 		(property "Reference" "D1"
-			(at 144.78 100.33 0)
+			(at 139.7 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1239,7 +1264,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 144.78 102.87 0)
+			(at 139.7 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1247,7 +1272,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 144.78 106.68 0)
+			(at 139.7 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1256,7 +1281,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 144.78 106.68 0)
+			(at 139.7 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1265,7 +1290,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 144.78 106.68 0)
+			(at 139.7 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1274,7 +1299,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 144.78 106.68 0)
+			(at 139.7 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1283,7 +1308,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 144.78 106.68 0)
+			(at 139.7 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1292,7 +1317,7 @@
 			)
 		)
 		(property "LCSC" "C81598"
-			(at 144.78 106.68 0)
+			(at 139.7 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1301,7 +1326,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 144.78 106.68 0)
+			(at 139.7 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1326,7 +1351,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 158.75 116.84 180)
+		(at 153.67 113.03 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1335,7 +1360,7 @@
 		(fields_autoplaced yes)
 		(uuid "cbc5008d-03ef-4b47-8b5b-d4c702f87cdc")
 		(property "Reference" "J4"
-			(at 158.115 114.3 0)
+			(at 153.035 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1343,7 +1368,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Pin"
-			(at 156.845 118.11 90)
+			(at 151.765 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1353,7 +1378,7 @@
 			)
 		)
 		(property "Footprint" "Amoeba_Choc_Nar:Pin_D0.8mm_L7.0mm"
-			(at 158.75 116.84 0)
+			(at 153.67 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1362,7 +1387,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 116.84 0)
+			(at 153.67 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1371,7 +1396,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 158.75 116.84 0)
+			(at 153.67 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1380,7 +1405,7 @@
 			)
 		)
 		(property "Config" "do not fit"
-			(at 158.75 116.84 0)
+			(at 153.67 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1403,7 +1428,7 @@
 	(symbol
 		(lib_name "Conn_01x01_Pin_1")
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 129.54 121.92 90)
+		(at 124.46 118.11 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1412,7 +1437,7 @@
 		(fields_autoplaced yes)
 		(uuid "d2879ef5-5b48-4be7-abea-a35819887308")
 		(property "Reference" "J2"
-			(at 130.81 121.285 90)
+			(at 125.73 117.475 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1421,7 +1446,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Pin"
-			(at 128.27 120.015 90)
+			(at 123.19 116.205 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1431,7 +1456,7 @@
 			)
 		)
 		(property "Footprint" "Amoeba_Choc_Nar:Pin_D0.8mm_L7.0mm"
-			(at 129.54 121.92 0)
+			(at 124.46 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1440,7 +1465,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 121.92 0)
+			(at 124.46 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1449,7 +1474,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 121.92 0)
+			(at 124.46 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1458,7 +1483,7 @@
 			)
 		)
 		(property "Config" "do not fit"
-			(at 129.54 121.92 0)
+			(at 124.46 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
