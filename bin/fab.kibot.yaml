@@ -11,14 +11,6 @@ preflight:
   run_drc: true
   ignore_unconnected: false
 
-filters:
-  - name: only_jlc_parts
-    comment: Only parts with JLC code
-    type: generic
-    include_only:
-      - column: 'LCSC'
-        regex: '^C\d+'
-
 variants:
   - name: rotated
     comment: 'A place holder for the built in rotation filter for JLCPCB'
@@ -110,7 +102,6 @@ outputs:
       units: millimeters
       separate_files_for_front_and_back: false
       only_smd: true
-      #dnf_filter: 'only_jlc_parts'
       use_aux_axis_as_origin: false
       columns:
         - id: Ref
@@ -126,25 +117,24 @@ outputs:
         - id: Side
           name: Layer
 
-  #  - name: bom
-  #    comment: BoM
-  #    type: bom
-  #    dir: pcba
-  #    options:
-  #      exclude_filter: 'only_jlc_parts'
-  #      output: '%f_%i.%x'
-  #      ref_separator: ','
-  #      group_fields: ['Value', 'Footprint', 'LCSC Part #']
-  #      columns:
-  #        - field: Value
-  #          name: Comment
-  #        - field: References
-  #          name: Designator
-  #        - field: Footprint
-  #          name: Footprint
-  #        - field: 'LCSC'
-  #          name: 'LCSC Part #'
-  #      csv:
-  #        hide_pcb_info: true
-  #        hide_stats_info: true
-  #        quote_all: true
+  - name: bom
+    comment: BoM
+    type: bom
+    dir: pcba
+    options:
+      output: '%f_%i.%x'
+      ref_separator: ','
+      group_fields: ['Value', 'Footprint', 'LCSC Part #']
+      columns:
+        - field: Value
+          name: Comment
+        - field: References
+          name: Designator
+        - field: Footprint
+          name: Footprint
+        - field: 'LCSC'
+          name: 'LCSC Part #'
+      csv:
+        hide_pcb_info: true
+        hide_stats_info: true
+        quote_all: true
