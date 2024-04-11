@@ -104,13 +104,13 @@ outputs:
     type: position
     dir: pcba
     options:
-      variant: rotated
+      #variant: rotated
       output: 'top_boards.%x'
       format: CSV
       units: millimeters
-      separate_files_for_front_and_back: false
+      #separate_files_for_front_and_back: false
       only_smd: true
-      dnf_filter: 'only_jlc_parts'
+      #dnf_filter: 'only_jlc_parts'
       use_aux_axis_as_origin: false
       columns:
         - id: Ref
