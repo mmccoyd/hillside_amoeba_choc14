@@ -117,25 +117,26 @@ outputs:
         - id: Side
           name: Layer
 
-  #  - name: bom
-  #    comment: BoM
-  #    type: bom
-  #    dir: pcba
-  #    options:
-  #      output: '%f_%i.%x'
-  #      dnf_filter: '_kibom_dnf_Config'
-  #      ref_separator: ','
-  #      group_fields: ['Value', 'Footprint', 'LCSC Part #']
-  #      columns:
-  #        - field: Value
-  #          name: Comment
-  #        - field: References
-  #          name: Designator
-  #        - field: Footprint
-  #          name: Footprint
-  #        - field: 'LCSC'
-  #          name: 'LCSC Part #'
-  #      csv:
-  #        hide_pcb_info: true
-  #        hide_stats_info: true
-  #        quote_all: true
+  - name: bom
+    comment: BoM
+    type: bom
+    dir: pcba
+    options:
+      output: '%f_%i.%x'
+      ignore_dnf: true
+      #dnf_filter: '_kibom_dnf_Config'
+      ref_separator: ','
+      group_fields: ['Value', 'Footprint', 'LCSC Part #']
+      columns:
+        - field: Value
+          name: Comment
+        - field: References
+          name: Designator
+        - field: Footprint
+          name: Footprint
+        - field: 'LCSC'
+          name: 'LCSC Part #'
+      csv:
+        hide_pcb_info: true
+        hide_stats_info: true
+        quote_all: true
