@@ -109,7 +109,7 @@ outputs:
       format: CSV
       units: millimeters
       separate_files_for_front_and_back: false
-      only_smd: false
+      only_smd: true
       dnf_filter: 'only_jlc_parts'
       use_aux_axis_as_origin: false
       columns:
