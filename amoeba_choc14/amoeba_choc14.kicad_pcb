@@ -514,7 +514,7 @@
 		(path "/92f12d88-437e-4842-945c-acf7224e04b5")
 		(sheetname "Root")
 		(sheetfile "amoeba_choc14.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(private_layers "Eco2.User" "User.9")
 		(fp_line
 			(start -9 -8.5)
