@@ -179,7 +179,23 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "315055a2-e239-4e12-bbc7-cb5c8d197f38")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "D*DO?35*")
 		(path "/995e5399-6b18-4440-8934-509fa3256a09")
+		(sheetname "Root")
+		(sheetfile "amoeba_choc14.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 1)
