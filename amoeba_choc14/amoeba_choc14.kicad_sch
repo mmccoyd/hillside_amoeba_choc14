@@ -895,6 +895,44 @@
 		)
 		(uuid "9d526ae6-e5c5-4bf7-8078-b9f338072c9e")
 	)
+	(text_box "Linking one part of the column to the MCU"
+		(exclude_from_sim no)
+		(at 100.33 97.79 0)
+		(size 17.78 7.62)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "9e12b52f-e588-4658-8981-d009951635e2")
+	)
+	(text_box "Linking the rows to the MCU\nis easier as they all wind up near the MCU"
+		(exclude_from_sim no)
+		(at 82.55 113.03 0)
+		(size 30.48 7.62)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "a04f81ca-2d58-45ca-a23f-a67c0073ee5c")
+	)
 	(text_box "Single switch Amoeba\nfor Dactyl choc keyboard"
 		(exclude_from_sim no)
 		(at 102.87 63.5 0)
@@ -913,6 +951,44 @@
 			(justify left top)
 		)
 		(uuid "c2d5a81f-6ebf-43aa-b0df-b939638d1afe")
+	)
+	(text_box "Wiring down the column"
+		(exclude_from_sim no)
+		(at 124.46 82.55 0)
+		(size 11.43 7.62)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "f092588e-2c0d-437a-9b77-4ac8ac7752af")
+	)
+	(text_box "Wiring across the row"
+		(exclude_from_sim no)
+		(at 153.67 113.03 0)
+		(size 15.24 5.08)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "f4c84cc9-af8e-4905-b756-2214b3220c5f")
 	)
 	(label "col"
 		(at 124.46 106.68 180)
