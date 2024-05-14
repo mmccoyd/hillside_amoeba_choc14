@@ -9,7 +9,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "Amoeba Choc 14 Panel")
-		(date "2024-04-30")
+		(date "2024-05-14")
 		(rev "0.1.0-alpha.1")
 		(comment 4 "25 Amoeba Choc 14s for Dactyl keyboards allowing choc spacing and hotswap")
 	)
@@ -95,7 +95,7 @@
 				(type "copper")
 				(thickness 0.035)
 			)
-			(layer "dielectric 1"
+			(layer "dielectric 2"
 				(type "core")
 				(thickness 1.11)
 				(material "FR4")
@@ -6232,7 +6232,7 @@
 	(footprint "Amoeba_Choc_Nar:ToolingHole_1.152mm"
 		(layer "F.Cu")
 		(uuid "24be1714-919f-4d6a-b69a-975217b196d7")
-		(at 98.7 161.6)
+		(at 103.75 161.6)
 		(descr "Mounting Hole 2.1mm, no annular")
 		(tags "mounting hole 2.1mm no annular")
 		(property "Reference" ""
@@ -6358,6 +6358,238 @@
 			(layers "F&B.Cu" "*.Mask")
 			(solder_mask_margin 0.074)
 			(uuid "3ecbaaee-3726-4ba3-a5b4-1f1c47a74cd2")
+		)
+	)
+	(footprint "Amoeba_Choc_Nar:Mouse_Bites_5mm"
+		(layer "F.Cu")
+		(uuid "263a03e6-fd72-4783-9790-18c221677e78")
+		(at 149.2 162.65 90)
+		(property "Reference" "REF**"
+			(at 0 6 90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4f0ee99d-6254-4d91-b537-371072890f36")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Mouse_Bites_5mm"
+			(at 0 2 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e2ce8f0-ce6c-4c51-ab76-620b28580452")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85114ec5-1018-4b39-9972-5b4b14316952")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b49b4eb-19e0-4cdc-ba0c-14681202367b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97326884-50eb-4fa2-af8a-634d156ab47f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
+		(fp_text user "${REFERENCE}"
+			(at 0 4 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8f9fe116-0a8a-4644-9eca-652b9203b71b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -1.9 0 90)
+			(size 0.6 0.6)
+			(drill 0.6)
+			(layers "*.Mask")
+			(uuid "aa6e91ec-ffd7-4bfc-896b-9a4d0c938d9d")
+		)
+		(pad "" np_thru_hole circle
+			(at -0.95 0 90)
+			(size 0.6 0.6)
+			(drill 0.6)
+			(layers "*.Mask")
+			(uuid "2c031ecb-fbf7-4b42-81ff-c2254e12166f")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0 90)
+			(size 0.6 0.6)
+			(drill 0.6)
+			(layers "*.Mask")
+			(uuid "0a367a11-7e95-4ffc-865a-5774b260b24f")
+		)
+		(pad "" np_thru_hole circle
+			(at 0.95 0 90)
+			(size 0.6 0.6)
+			(drill 0.6)
+			(layers "*.Mask")
+			(uuid "2a2e482e-a6c4-4240-bf2e-d12b39a14fc0")
+		)
+		(pad "" np_thru_hole circle
+			(at 1.9 0 90)
+			(size 0.6 0.6)
+			(drill 0.6)
+			(layers "*.Mask")
+			(uuid "925d419e-a608-4fdc-bc4f-364c368d976f")
+		)
+	)
+	(footprint "Amoeba_Choc_Nar:Mouse_Bites_5mm"
+		(layer "F.Cu")
+		(uuid "28dcc31b-2a10-4844-a29d-e96e66316b96")
+		(at 181.8 162.65 90)
+		(property "Reference" "REF**"
+			(at 0 6 90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3ae97417-8900-4d03-9900-a554d85ee3b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Mouse_Bites_5mm"
+			(at 0 2 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5750ac6c-2861-4097-bf75-ad4f1151de05")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "038e707a-d19f-425b-917c-80db186c92f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c50aeff-daa9-4743-ba82-372d8202b0da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e3f737e-c2fc-4f56-834f-308298d8ae8f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
+		(fp_text user "${REFERENCE}"
+			(at 0 4 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec6b2582-207f-489b-b134-1f019626107d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -1.9 0 90)
+			(size 0.6 0.6)
+			(drill 0.6)
+			(layers "*.Mask")
+			(uuid "e7440524-f7bb-46d4-a98f-02243e932fa8")
+		)
+		(pad "" np_thru_hole circle
+			(at -0.95 0 90)
+			(size 0.6 0.6)
+			(drill 0.6)
+			(layers "*.Mask")
+			(uuid "199722b6-8254-4869-8b1e-4f02e4e278d4")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0 90)
+			(size 0.6 0.6)
+			(drill 0.6)
+			(layers "*.Mask")
+			(uuid "39d4f4ab-210e-4ae5-b775-215506c39e26")
+		)
+		(pad "" np_thru_hole circle
+			(at 0.95 0 90)
+			(size 0.6 0.6)
+			(drill 0.6)
+			(layers "*.Mask")
+			(uuid "3899a535-f290-428c-9cd4-3fbc0c7f5f3c")
+		)
+		(pad "" np_thru_hole circle
+			(at 1.9 0 90)
+			(size 0.6 0.6)
+			(drill 0.6)
+			(layers "*.Mask")
+			(uuid "6e154ca5-c1f9-4984-b667-2df2e417292c")
 		)
 	)
 	(footprint "Amoeba_Choc_Nar:pg1350-hotswap"
@@ -9199,6 +9431,122 @@
 			(drill 0.6)
 			(layers "*.Mask")
 			(uuid "ec046866-b2c4-4a2e-aa31-29e8582975a5")
+		)
+	)
+	(footprint "Amoeba_Choc_Nar:Mouse_Bites_5mm"
+		(layer "F.Cu")
+		(uuid "382a0c1c-8025-4db8-bf99-dd15f737d624")
+		(at 181.75 65.65 90)
+		(property "Reference" "REF**"
+			(at 0 6 90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9b018b05-aa9a-4608-9658-e2267d38d57e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Mouse_Bites_5mm"
+			(at 0 2 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c446dbe7-4a19-4e00-85e4-7ebe344903ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2cbd16b6-c4de-43fd-bdc5-d8f3406639f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b60cfc4-f455-4de3-bd0e-aa667878e549")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0ba9d38c-ac90-490d-89e3-d085364b514b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
+		(fp_text user "${REFERENCE}"
+			(at 0 4 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "06869dd9-65ab-4521-ad61-f612835b7b68")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -1.9 0 90)
+			(size 0.6 0.6)
+			(drill 0.6)
+			(layers "*.Mask")
+			(uuid "b1e593a7-d5a1-44bc-8b3d-3a7e014dfbf9")
+		)
+		(pad "" np_thru_hole circle
+			(at -0.95 0 90)
+			(size 0.6 0.6)
+			(drill 0.6)
+			(layers "*.Mask")
+			(uuid "ac06a1b7-a8b3-4209-bd97-c8c0beb80e65")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0 90)
+			(size 0.6 0.6)
+			(drill 0.6)
+			(layers "*.Mask")
+			(uuid "9163d7b2-7fc0-46a4-9e50-a03a8d4c15e1")
+		)
+		(pad "" np_thru_hole circle
+			(at 0.95 0 90)
+			(size 0.6 0.6)
+			(drill 0.6)
+			(layers "*.Mask")
+			(uuid "63367a3c-c3b8-47fa-a5c3-511490242bbe")
+		)
+		(pad "" np_thru_hole circle
+			(at 1.9 0 90)
+			(size 0.6 0.6)
+			(drill 0.6)
+			(layers "*.Mask")
+			(uuid "41445526-7dd6-4b2a-bd50-b83f636d6ed2")
 		)
 	)
 	(footprint "Amoeba_Choc_Nar:Mouse_Bites"
@@ -15881,7 +16229,7 @@
 	(footprint "Amoeba_Choc_Nar:ToolingHole_1.152mm"
 		(layer "F.Cu")
 		(uuid "6a731c52-ae15-423b-b38d-cd22f19022a3")
-		(at 184.2 66.1)
+		(at 174.75 66.1)
 		(descr "Mounting Hole 2.1mm, no annular")
 		(tags "mounting hole 2.1mm no annular")
 		(property "Reference" ""
@@ -17112,7 +17460,7 @@
 	(footprint "Amoeba_Choc_Nar:ToolingHole_1.152mm"
 		(layer "F.Cu")
 		(uuid "80afb8f0-ae53-4622-8026-a7f2ed042e33")
-		(at 184.7 163.1)
+		(at 179.15 163.1)
 		(descr "Mounting Hole 2.1mm, no annular")
 		(tags "mounting hole 2.1mm no annular")
 		(property "Reference" ""
@@ -17583,7 +17931,7 @@
 	(footprint "Amoeba_Choc_Nar:ToolingHole_1.152mm"
 		(layer "F.Cu")
 		(uuid "88a3e43d-fb7f-48d5-a87f-e8fb5d359547")
-		(at 99.2 66.6)
+		(at 106.15 66.6)
 		(descr "Mounting Hole 2.1mm, no annular")
 		(tags "mounting hole 2.1mm no annular")
 		(property "Reference" ""
@@ -18179,6 +18527,122 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "Amoeba_Choc_Nar:Mouse_Bites_5mm"
+		(layer "F.Cu")
+		(uuid "8d3d1a30-1e5e-4eb3-ba99-e3bf166c6655")
+		(at 100.85 162.6 90)
+		(property "Reference" "REF**"
+			(at 0 6 90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "31df594b-84c9-4778-a435-269eb1407b69")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Mouse_Bites_5mm"
+			(at 0 2 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b2530688-05ca-4310-b671-c7caee8a3162")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cadc63e4-81ff-4cf1-961c-1415f867540a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7716bb16-7eb9-481c-b62d-58f96d08e029")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "080882ff-e91e-4efb-9872-cf8ee72d1ed7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
+		(fp_text user "${REFERENCE}"
+			(at 0 4 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "140bd8ec-73d3-4782-b2b0-1c84cd5c4b23")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -1.9 0 90)
+			(size 0.6 0.6)
+			(drill 0.6)
+			(layers "*.Mask")
+			(uuid "9ecfbf1c-50c5-4051-9c12-c09d82774ff4")
+		)
+		(pad "" np_thru_hole circle
+			(at -0.95 0 90)
+			(size 0.6 0.6)
+			(drill 0.6)
+			(layers "*.Mask")
+			(uuid "fb639a5b-3519-4461-98df-161d013ee9e5")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0 90)
+			(size 0.6 0.6)
+			(drill 0.6)
+			(layers "*.Mask")
+			(uuid "876ba5c8-1ca4-4661-9de2-7dfa73c938c6")
+		)
+		(pad "" np_thru_hole circle
+			(at 0.95 0 90)
+			(size 0.6 0.6)
+			(drill 0.6)
+			(layers "*.Mask")
+			(uuid "71ed2309-f4a7-415f-908c-6c27b7eb6f48")
+		)
+		(pad "" np_thru_hole circle
+			(at 1.9 0 90)
+			(size 0.6 0.6)
+			(drill 0.6)
+			(layers "*.Mask")
+			(uuid "ff1077c4-ebba-4716-afd3-9cdcc530c522")
 		)
 	)
 	(footprint "Amoeba_Choc_Nar:pg1350-hotswap"
@@ -28060,6 +28524,122 @@
 			(members "b7655337-119d-4bb8-a741-84defd13dbbe" "bab23f02-9ee5-4baf-897c-addd60cff485")
 		)
 	)
+	(footprint "Amoeba_Choc_Nar:Mouse_Bites_5mm"
+		(layer "F.Cu")
+		(uuid "be486726-71b7-4b9c-b237-314e534d141e")
+		(at 149.15 65.6 90)
+		(property "Reference" "REF**"
+			(at 0 6 90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "89a8b6b4-58b8-408f-bb65-ec314048d322")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Mouse_Bites_5mm"
+			(at 0 2 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad23cf52-53ca-473d-8c74-8149ff1342ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da30e7c6-cb68-4f98-9e18-f20b91bc986f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "596b87f3-6498-4343-9564-e0cf6d4f7ced")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bdfefa05-1c54-44f7-869a-2253484a0048")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
+		(fp_text user "${REFERENCE}"
+			(at 0 4 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "88cb062b-3d04-4cab-99f8-5ce6e847545f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -1.9 0 90)
+			(size 0.6 0.6)
+			(drill 0.6)
+			(layers "*.Mask")
+			(uuid "7b5c7476-1f26-4a6d-a131-cb313fb0cc4a")
+		)
+		(pad "" np_thru_hole circle
+			(at -0.95 0 90)
+			(size 0.6 0.6)
+			(drill 0.6)
+			(layers "*.Mask")
+			(uuid "43e26c02-4aca-4a00-9a5c-d4f2696e7bb6")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0 90)
+			(size 0.6 0.6)
+			(drill 0.6)
+			(layers "*.Mask")
+			(uuid "f6b02ea6-a28e-49b1-8227-bf208073ebc2")
+		)
+		(pad "" np_thru_hole circle
+			(at 0.95 0 90)
+			(size 0.6 0.6)
+			(drill 0.6)
+			(layers "*.Mask")
+			(uuid "fe03a00d-373b-4f37-89e9-e43b42dfebbc")
+		)
+		(pad "" np_thru_hole circle
+			(at 1.9 0 90)
+			(size 0.6 0.6)
+			(drill 0.6)
+			(layers "*.Mask")
+			(uuid "8a56a7c7-e2c4-441e-9e49-b1a73b36e1b9")
+		)
+	)
 	(footprint "Amoeba_Choc_Nar:Mouse_Bites"
 		(layer "F.Cu")
 		(uuid "be6dc8ac-fa72-4afd-9b53-5e1cfd8e9638")
@@ -35415,10 +35995,126 @@
 			(uuid "de7ec884-18be-4c4a-a975-84de45a1243c")
 		)
 	)
+	(footprint "Amoeba_Choc_Nar:Mouse_Bites_5mm"
+		(layer "F.Cu")
+		(uuid "f88f5f1e-d016-4712-9f03-f2f332d45471")
+		(at 101.05 65.6 90)
+		(property "Reference" "REF**"
+			(at 0 6 90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "66256d96-feac-4626-8b8f-082f309716a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Mouse_Bites_5mm"
+			(at 0 2 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6c522618-094a-4b5d-a1af-13f53fde946e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b779bfd8-a1af-4d97-b8b0-929a93be25fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9277c2d8-4550-4b74-bd90-7705c5742397")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "74343aca-1b9b-47f0-85ab-e0caea1bab74")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
+		(fp_text user "${REFERENCE}"
+			(at 0 4 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "213bfc21-f7c9-4a4b-8b50-7184bfda2ba3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -1.9 0 90)
+			(size 0.6 0.6)
+			(drill 0.6)
+			(layers "*.Mask")
+			(uuid "e7052bf3-f6be-42fd-b583-c4b5dfeca552")
+		)
+		(pad "" np_thru_hole circle
+			(at -0.95 0 90)
+			(size 0.6 0.6)
+			(drill 0.6)
+			(layers "*.Mask")
+			(uuid "f01c1605-f94a-44b2-bac8-8fcc0d680675")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0 90)
+			(size 0.6 0.6)
+			(drill 0.6)
+			(layers "*.Mask")
+			(uuid "9ae7b634-bd2e-45b6-8c91-18f92e2b46dc")
+		)
+		(pad "" np_thru_hole circle
+			(at 0.95 0 90)
+			(size 0.6 0.6)
+			(drill 0.6)
+			(layers "*.Mask")
+			(uuid "a7891384-3797-4449-9e40-7aab2d73417b")
+		)
+		(pad "" np_thru_hole circle
+			(at 1.9 0 90)
+			(size 0.6 0.6)
+			(drill 0.6)
+			(layers "*.Mask")
+			(uuid "34bf1b45-0714-4dfd-81c2-d49deb07ccb5")
+		)
+	)
 	(footprint "Fiducial:Fiducial_1mm_Mask2mm"
 		(layer "F.Cu")
 		(uuid "f9bd152a-b3b6-4621-9a1e-0080bc154859")
-		(at 181.05 66.95)
+		(at 178 66.95)
 		(descr "Circular Fiducial, 1mm bare copper, 2mm soldermask opening (Level A)")
 		(tags "fiducial")
 		(property "Reference" "REF**"
@@ -60174,21 +60870,9 @@
 		)
 	)
 	(gr_text "JLCJLCJLCJLC"
-		(at 171.2 161.99 0)
+		(at 167.2 161.99 0)
 		(layer "F.SilkS")
 		(uuid "77118db1-5869-4256-82db-44859038e50e")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "${COMMENT4}"
-		(at 106.7 65.45 0)
-		(layer "F.SilkS")
-		(uuid "7752637f-ffbc-4e7c-86e4-1b1d65ff88d9")
 		(effects
 			(font
 				(size 1 1)
@@ -60306,7 +60990,7 @@
 		)
 	)
 	(gr_text "ver: ${REVISION}"
-		(at 102.2 161.99 0)
+		(at 106.35 161.99 0)
 		(layer "F.SilkS")
 		(uuid "a70bc8b2-a9b2-4be7-9c1c-1372bd4d010c")
 		(effects
@@ -60402,7 +61086,7 @@
 		)
 	)
 	(gr_text "Order id: "
-		(at 163.2 161.99 0)
+		(at 159.2 161.99 0)
 		(layer "F.SilkS")
 		(uuid "c0610f33-7605-40b7-8de6-9cb924a209b8")
 		(effects
@@ -60603,6 +61287,24 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text_box "${COMMENT4}"
+		(start 108.4 63.35)
+		(end 143.4 67.45)
+		(layer "F.SilkS")
+		(uuid "290cec27-ebd1-44b6-80a8-6a0e00815e23")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left top)
+		)
+		(border no)
+		(stroke
+			(width 0.05)
+			(type solid)
 		)
 	)
 	(gr_text_box "${TITLE}"
