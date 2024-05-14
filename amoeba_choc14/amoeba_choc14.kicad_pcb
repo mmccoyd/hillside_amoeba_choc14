@@ -9,8 +9,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "Amoeba Choc 14")
-		(date "2024-04-11")
-		(rev "0.1.0-alpha")
+		(date "2024-05-14")
+		(rev "0.1.0-alpha.1")
 		(comment 1 "and sturdier column walls; with socket STEP file. ")
 		(comment 2 "allows choc 18 mm or narrower Dactyl column spacing ")
 		(comment 3 "A choc keyboard single-switch Amoeba PCB with Mill-Max hotswap that  ")
@@ -149,7 +149,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 1.3 2.1875 180)
+			(at 0 4.7375 180)
 			(layer "F.Fab")
 			(uuid "2d47b736-b72c-4a44-a8f3-fcbebf526213")
 			(effects
@@ -431,7 +431,7 @@
 			(uuid "baa156b3-2a2c-45ad-b447-dd9ca520063e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2 180)
+			(at -0.05 1.6875 180)
 			(layer "F.Fab")
 			(uuid "e7b63e2e-7bcf-4680-b7ec-491e226aa3cc")
 			(effects
@@ -552,6 +552,8 @@
 			)
 		)
 		(path "/92f12d88-437e-4842-945c-acf7224e04b5")
+		(sheetname "Root")
+		(sheetfile "amoeba_choc14.kicad_sch")
 		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(private_layers "Eco2.User" "User.9")
 		(fp_line
@@ -1573,7 +1575,7 @@
 		(descr "solder Pin_ diameter 0.8mm, hole diameter 0.8mm (press fit), length 7.0mm")
 		(tags "solder Pin_ press fit")
 		(property "Reference" "J5"
-			(at -2.95 0.05 180)
+			(at -2.15 0 180)
 			(layer "B.Fab")
 			(uuid "09da0d61-35c2-48c4-9496-d35a511cd117")
 			(effects
@@ -1836,7 +1838,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at -1.7 0.05 0)
+			(at -2.25 0.025 0)
 			(layer "B.Fab")
 			(uuid "365c202f-9348-4785-9399-60d89423cb5c")
 			(effects
@@ -2307,7 +2309,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at -1.925 0.275 0)
+			(at -2.1 0 0)
 			(layer "B.Fab")
 			(uuid "0a6a8480-0d60-46eb-bf65-3be645314363")
 			(effects
@@ -2537,8 +2539,18 @@
 		(uuid "3a82400e-5993-44d7-b5c4-9fbdfdefe6b5")
 	)
 	(gr_line
-		(start 133 119)
-		(end 127 119)
+		(start 133 122)
+		(end 133 119)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4d166685-2a8f-4ae0-be49-aa9e6d82c918")
+	)
+	(gr_line
+		(start 133 122)
+		(end 127 122)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -2548,13 +2560,43 @@
 	)
 	(gr_line
 		(start 133 101)
-		(end 127 101)
+		(end 133 98)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "73c5a57e-df4e-4bac-9e46-08f0092d2a7f")
+	)
+	(gr_line
+		(start 133 98)
+		(end 127 98)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "a26e2910-f382-404a-9700-6e18af768286")
+	)
+	(gr_line
+		(start 127 122)
+		(end 127 119)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a7a08776-088d-4ca3-970b-6c05c6934ca1")
+	)
+	(gr_line
+		(start 127 101)
+		(end 127 98)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f9326f92-da14-438e-a328-491adf53a267")
 	)
 	(gr_line
 		(start 120.256 101.498)
@@ -2575,6 +2617,18 @@
 		)
 		(layer "User.9")
 		(uuid "b2bea71c-c0b8-48b4-84bc-119828831f03")
+	)
+	(gr_text "v010a1"
+		(at 132.8 113.45 0)
+		(layer "B.SilkS")
+		(uuid "90ee7fc4-5f61-42e5-9a65-f07d728fb02c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
 	)
 	(gr_text "Choc 14"
 		(at 127.1 114.3 0)
@@ -2761,20 +2815,12 @@
 		(uuid "ec87c14f-8b6f-4475-bdb9-2544cc248012")
 	)
 	(segment
-		(start 127.525 113.8)
-		(end 127.525 105.55)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "44941198-92eb-4a08-97df-3648ab8b66de")
-	)
-	(segment
 		(start 127.6875 105.3875)
 		(end 128.35 105.3875)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 2)
-		(uuid "73037d91-62dc-4b54-be9e-27b8735155a8")
+		(uuid "38a79d04-874a-4333-950b-8de2407bb424")
 	)
 	(segment
 		(start 127.525 105.55)
@@ -2782,10 +2828,26 @@
 		(width 0.25)
 		(layer "F.Cu")
 		(net 2)
-		(uuid "975e88f0-3b19-4a09-9372-d08153d04d85")
+		(uuid "9ebd2320-d37d-4050-895a-6a1f24b685e7")
+	)
+	(segment
+		(start 126.9 113.35)
+		(end 127.525 112.725)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "c13d6b51-5223-4f81-b107-b6f699c4c439")
+	)
+	(segment
+		(start 127.525 112.725)
+		(end 127.525 105.55)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "c6f7c456-b6e7-4ead-9727-e8d23c972428")
 	)
 	(via
-		(at 127.525 113.8)
+		(at 126.9 113.35)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
@@ -2793,12 +2855,20 @@
 		(uuid "d8558fa7-cfb7-4932-9170-5c3e67231b79")
 	)
 	(segment
-		(start 127.525 113.8)
+		(start 126.45 113.8)
 		(end 125 113.8)
 		(width 0.25)
 		(layer "B.Cu")
 		(net 2)
-		(uuid "b57809ce-4470-43b2-9010-1beb0ca8875c")
+		(uuid "5ead49a1-d1cd-493b-9739-7d8bb2053e5d")
+	)
+	(segment
+		(start 126.9 113.35)
+		(end 126.45 113.8)
+		(width 0.25)
+		(layer "B.Cu")
+		(net 2)
+		(uuid "e240b011-4843-40b7-b95d-b542f4faf5fd")
 	)
 	(segment
 		(start 134.5 112.75)
