@@ -2,11 +2,20 @@
 
 I've ordered from JLC, who seem good for small personal runs.
 
+It is possible any given diode choice may be out of stock.
+If so you may need to switch between SOD-123 and SOD-323 footprints
+  and recreate the panel.
+
+Suitable JLC stock numbers are:
+
+- SOD-123: C81598
+- SOD-323: C2128
+
 ## Board order settings
 
 - Layers: 2
 - Delivery Format: Panel by Customer
-- Panel Format: 5 x 5
+- Panel Format: 6 x 4
 - Thickness: 1.2 (As Mill-Max lip pushes board closer to Dactyl base.)
 
 - Color, Finish: Your choice. ENIG isn't needed for keyboards.
