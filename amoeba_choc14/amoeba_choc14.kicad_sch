@@ -1347,7 +1347,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 139.7 102.87 0)
 			(effects
 				(font
@@ -1392,7 +1392,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C81598"
+		(property "LCSC" "C2128"
 			(at 139.7 102.87 0)
 			(effects
 				(font
