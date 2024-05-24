@@ -9,9 +9,9 @@
 	(paper "USLetter")
 	(title_block
 		(title "Amoeba Choc 14 Panel")
-		(date "2024-05-14")
-		(rev "0.1.0-alpha.1")
-		(comment 4 "24 Amoeba Choc 14s for Dactyl keyboards allowing choc spacing and hotswap")
+		(date "2024-05-24")
+		(rev "0.1.0-alpha.2")
+		(comment 4 "24 Amoeba Choc 14s for Dactyl keyboards allowing choc spacing and mill-max hotswap")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -95,7 +95,7 @@
 				(type "copper")
 				(thickness 0.035)
 			)
-			(layer "dielectric 1"
+			(layer "dielectric 2"
 				(type "core")
 				(thickness 1.11)
 				(material "FR4")
@@ -4034,7 +4034,7 @@
 	(footprint "Amoeba_Choc_Nar:ToolingHole_1.152mm"
 		(layer "F.Cu")
 		(uuid "24be1714-919f-4d6a-b69a-975217b196d7")
-		(at 103.8 155.3)
+		(at 106.25 155.95)
 		(descr "Mounting Hole 2.1mm, no annular")
 		(tags "mounting hole 2.1mm no annular")
 		(property "Reference" ""
@@ -11523,136 +11523,6 @@
 			)
 		)
 	)
-	(footprint "Amoeba_Choc_Nar:ToolingHole_1.152mm"
-		(layer "F.Cu")
-		(uuid "6a731c52-ae15-423b-b38d-cd22f19022a3")
-		(at 194.4 53.8)
-		(descr "Mounting Hole 2.1mm, no annular")
-		(tags "mounting hole 2.1mm no annular")
-		(property "Reference" ""
-			(at 0 -3.2 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "17b8635c-249d-4d06-bf24-776d2de81f2f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "ToolingHole"
-			(at 0 1.4 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fcb018e9-a077-4866-97c0-57655c4c8fbe")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e03e25a7-b758-438f-a461-74d5947f5f5e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "da62c909-f943-4166-ba8e-7ee14a720bb7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "991de503-a069-48a6-a721-8b65fdd8d3c7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "exclude_from_bom" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e9b5e368-ba0f-4eb4-8e55-fff1303738e7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr board_only exclude_from_pos_files exclude_from_bom)
-		(private_layers "User.9")
-		(fp_circle
-			(center 0 0)
-			(end 0.69 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "1ae03409-abdd-4b7a-a47e-ae4b652e2ed0")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -1.1 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d3bcbfd5-9f14-4027-a908-589ba09e801d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text_box "Need to be non-plated, per JLC"
-			(start -10.1 2.2)
-			(end 9.95 6)
-			(layer "User.9")
-			(uuid "7e3f5b2d-1206-426b-aa7e-b429a0202721")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify left top)
-			)
-			(border yes)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0)
-			(size 1.3 1.3)
-			(drill 1.152)
-			(layers "*.Mask")
-			(solder_mask_margin 0.074)
-			(uuid "32c69610-83fc-4b79-9730-0fae6a82999e")
-		)
-	)
 	(footprint "Diode_SMD:D_SOD-323_HandSoldering"
 		(layer "F.Cu")
 		(uuid "6c7b2ac6-fc0a-4af5-8349-113f6b946835")
@@ -14169,7 +14039,7 @@
 	(footprint "Fiducial:Fiducial_1mm_Mask2mm"
 		(layer "F.Cu")
 		(uuid "7010b2ec-e976-4349-a877-e8539fd627c8")
-		(at 106.85 154.95 180)
+		(at 109.25 154.95 180)
 		(descr "Circular Fiducial, 1mm bare copper, 2mm soldermask opening (Level A)")
 		(tags "fiducial")
 		(property "Reference" "REF**"
@@ -16341,7 +16211,7 @@
 	(footprint "Amoeba_Choc_Nar:ToolingHole_1.152mm"
 		(layer "F.Cu")
 		(uuid "80afb8f0-ae53-4622-8026-a7f2ed042e33")
-		(at 159.95 156.8)
+		(at 192.25 155.95)
 		(descr "Mounting Hole 2.1mm, no annular")
 		(tags "mounting hole 2.1mm no annular")
 		(property "Reference" ""
@@ -17928,7 +17798,7 @@
 	(footprint "Amoeba_Choc_Nar:ToolingHole_1.152mm"
 		(layer "F.Cu")
 		(uuid "88a3e43d-fb7f-48d5-a87f-e8fb5d359547")
-		(at 104 54.3)
+		(at 106.25 53.65)
 		(descr "Mounting Hole 2.1mm, no annular")
 		(tags "mounting hole 2.1mm no annular")
 		(property "Reference" ""
@@ -21392,7 +21262,7 @@
 	(footprint "Fiducial:Fiducial_1mm_Mask2mm"
 		(layer "F.Cu")
 		(uuid "a47590dd-4c0a-4de5-8bd9-b3bde74f94ea")
-		(at 157.25 154.95 180)
+		(at 189.25 154.95 180)
 		(descr "Circular Fiducial, 1mm bare copper, 2mm soldermask opening (Level A)")
 		(tags "fiducial")
 		(property "Reference" "REF**"
@@ -26322,7 +26192,7 @@
 	(footprint "Fiducial:Fiducial_1mm_Mask2mm"
 		(layer "F.Cu")
 		(uuid "c3c09e33-5ae0-45ac-9edf-27909b88aea2")
-		(at 107.1 54.65)
+		(at 109.25 54.65)
 		(descr "Circular Fiducial, 1mm bare copper, 2mm soldermask opening (Level A)")
 		(tags "fiducial")
 		(property "Reference" "REF**"
@@ -33208,116 +33078,6 @@
 			(rotate
 				(xyz 0 0 0)
 			)
-		)
-	)
-	(footprint "Fiducial:Fiducial_1mm_Mask2mm"
-		(layer "F.Cu")
-		(uuid "f9bd152a-b3b6-4621-9a1e-0080bc154859")
-		(at 190.9 54.65)
-		(descr "Circular Fiducial, 1mm bare copper, 2mm soldermask opening (Level A)")
-		(tags "fiducial")
-		(property "Reference" "REF**"
-			(at 0 -2 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "010eee15-e8ac-4665-a72f-fab2a5c0a454")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Fiducial_1mm_Mask2mm"
-			(at 5 -3 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "423b2261-df0c-4e73-80ea-93a4ecfc5c31")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ce75eca9-8572-4c19-aeb2-ed3864224d71")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ecba0f85-e15d-4a8c-8348-7b817c7ba39f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f43ea2dc-7ad4-436c-92b9-3ad0dcb8090b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(attr smd)
-		(fp_circle
-			(center 0 0)
-			(end 1.25 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "d1a00f79-91e1-4a49-87de-4147260a6900")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.Fab")
-			(uuid "2ebdd0ce-4684-4ab4-8213-4aba379f7f48")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bfac1dbe-dd00-4734-86c4-cc03bbf17fb8")
-			(effects
-				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
-				)
-			)
-		)
-		(pad "" smd circle
-			(at 0 0)
-			(size 1 1)
-			(layers "F.Cu" "F.Mask")
-			(solder_mask_margin 0.5)
-			(clearance 0.5)
-			(uuid "d1ecc511-f368-4ab5-a69e-84b930b6d239")
 		)
 	)
 	(footprint "Amoeba_Choc_Nar:pg1350-hotswap"
@@ -60148,7 +59908,7 @@
 		)
 	)
 	(gr_text "JLCJLCJLCJLC"
-		(at 177.957107 156.55 0)
+		(at 158.25 156.55 0)
 		(layer "F.SilkS")
 		(uuid "77118db1-5869-4256-82db-44859038e50e")
 		(effects
@@ -60256,7 +60016,7 @@
 		)
 	)
 	(gr_text "ver: ${REVISION}"
-		(at 110.55 155.69 0)
+		(at 111.7 155.69 0)
 		(layer "F.SilkS")
 		(uuid "a70bc8b2-a9b2-4be7-9c1c-1372bd4d010c")
 		(effects
@@ -60292,7 +60052,7 @@
 		)
 	)
 	(gr_text "Order id: "
-		(at 169.957107 156.55 0)
+		(at 150.25 156.55 0)
 		(layer "F.SilkS")
 		(uuid "c0610f33-7605-40b7-8de6-9cb924a209b8")
 		(effects
@@ -60424,8 +60184,8 @@
 		)
 	)
 	(gr_text_box "${COMMENT4}"
-		(start 109.3 51.05)
-		(end 144.3 55.15)
+		(start 111.8 51.25)
+		(end 149.05 54.8)
 		(layer "F.SilkS")
 		(uuid "290cec27-ebd1-44b6-80a8-6a0e00815e23")
 		(effects
