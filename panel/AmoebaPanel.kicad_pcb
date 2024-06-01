@@ -53350,6 +53350,16 @@
 		(layer "B.SilkS")
 		(uuid "2681fd7b-d0a9-43ed-8eb4-3e7c8a587e16")
 	)
+	(gr_line
+		(start 99.85 128.5)
+		(end 96 128.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "29849500-0124-44a9-9f34-2357a22778e8")
+	)
 	(gr_rect
 		(start 119.55 109.2)
 		(end 126.05 113)
@@ -54069,6 +54079,16 @@
 		(uuid "81882b96-05b3-49c1-8ec7-b4208b345bbd")
 	)
 	(gr_line
+		(start 202.875 128.5)
+		(end 199 128.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "8217aab0-2de4-475e-acba-74d052e07382")
+	)
+	(gr_line
 		(start 170.275 114.6)
 		(end 169.425 114.6)
 		(stroke
@@ -54363,6 +54383,16 @@
 		(uuid "a39ae1f8-446c-44bb-8bd4-4c806e351d44")
 	)
 	(gr_line
+		(start 165.5 158.5)
+		(end 165.5 154)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "a3eeac64-3ced-4acb-a7a4-ab8bcbf0354c")
+	)
+	(gr_line
 		(start 129.075 90.6)
 		(end 128.225 90.6)
 		(stroke
@@ -54564,6 +54594,16 @@
 		)
 		(layer "B.SilkS")
 		(uuid "c25ca10f-e392-475b-86bb-9a6b665e8509")
+	)
+	(gr_line
+		(start 133.5 158.5)
+		(end 133.5 154)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "c33bcdd2-6c3d-4860-85a7-f4a078275264")
 	)
 	(gr_line
 		(start 129.775 147.075)
@@ -59319,6 +59359,30 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "Utility"
+		(at 159.55 155.85 0)
+		(layer "B.SilkS")
+		(uuid "234b9878-dc42-4dcd-a7cc-def209499b57")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Thumb"
+		(at 119.5 155.85 0)
+		(layer "B.SilkS")
+		(uuid "30f4515f-af30-417f-8a0d-dd8180ac1a07")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "v010a1"
 		(at 144.05 96.25 0)
 		(layer "B.SilkS")
@@ -59391,6 +59455,18 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "Home"
+		(at 200.3465 93.7 -90)
+		(layer "B.SilkS")
+		(uuid "4ddd289a-3531-4edc-88fa-2592932cb570")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "v010a1"
 		(at 112.05 120.25 0)
 		(layer "B.SilkS")
@@ -59403,10 +59479,34 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "Lower"
+		(at 200.0965 118.35 -90)
+		(layer "B.SilkS")
+		(uuid "5eb2dbb6-51bb-442f-a7c4-f417be9be48b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "v010a1"
 		(at 160.05 144.25 0)
 		(layer "B.SilkS")
 		(uuid "63da4eed-21a1-418b-841a-ca73a2255048")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Lower"
+		(at 97.0465 118.2 -90)
+		(layer "B.SilkS")
+		(uuid "695e5c2b-290d-4485-9757-3c35fce2dcbb")
 		(effects
 			(font
 				(size 1 1)
@@ -59431,6 +59531,18 @@
 		(at 192.05 72.25 0)
 		(layer "B.SilkS")
 		(uuid "701e430b-26b6-468c-a928-2ca89d872045")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Thumb and Utility"
+		(at 200.4465 147 -90)
+		(layer "B.SilkS")
+		(uuid "78cdbefc-9961-4ddb-8688-d975b0f26288")
 		(effects
 			(font
 				(size 1 1)
@@ -59475,6 +59587,42 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "Upper"
+		(at 97.3965 70.15 -90)
+		(layer "B.SilkS")
+		(uuid "8f90e6ed-2eff-4efd-8d42-2ea2848bc1ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Utility"
+		(at 143.3 155.85 0)
+		(layer "B.SilkS")
+		(uuid "9740e1dd-6905-4965-9341-d8a882a5347d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Thumb and Utility"
+		(at 97.3965 146.85 -90)
+		(layer "B.SilkS")
+		(uuid "9a2a1b2a-e6fb-4469-adcd-1d89e8c89c65")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "v010a1"
 		(at 176.05 72.25 0)
 		(layer "B.SilkS")
@@ -59491,6 +59639,18 @@
 		(at 176.05 144.25 0)
 		(layer "B.SilkS")
 		(uuid "bccdfb2d-3f66-43bd-baa4-73be23978d39")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Upper"
+		(at 200.4465 70.3 -90)
+		(layer "B.SilkS")
+		(uuid "d0333ee4-dbfc-4dbc-8769-201ff9ab6c79")
 		(effects
 			(font
 				(size 1 1)
@@ -59547,10 +59707,34 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "Home"
+		(at 97.2965 93.55 -90)
+		(layer "B.SilkS")
+		(uuid "f0963a02-2c30-49e9-b14b-81689f0ec8c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "v010a1"
 		(at 112.05 96.25 0)
 		(layer "B.SilkS")
 		(uuid "fb4e92eb-451e-43d3-89fb-748c7af409ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Thumb"
+		(at 183.5 155.85 0)
+		(layer "B.SilkS")
+		(uuid "fc3ee46e-3b7f-43fb-957d-dc9d6599b2c3")
 		(effects
 			(font
 				(size 1 1)
@@ -60198,6 +60382,24 @@
 		(border no)
 		(stroke
 			(width 0.05)
+			(type solid)
+		)
+	)
+	(gr_text_box "This 6 x 4 panel allows much of a small Dactyl's matrix wiring to be done while still in the panel."
+		(start 153.375 51.25)
+		(end 198.425 54.8)
+		(layer "F.SilkS")
+		(uuid "824f5ba3-2313-431c-89aa-1f272e97b4cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left top)
+		)
+		(border no)
+		(stroke
+			(width 0)
 			(type solid)
 		)
 	)
