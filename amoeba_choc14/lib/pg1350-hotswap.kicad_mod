@@ -563,7 +563,6 @@
 			(type default)
 		)
 		(layer "User.9")
-		(net 108)
 		(uuid "6b3021e1-9dc9-49de-b7e7-8a8bf4f59b33")
 	)
 	(fp_line
@@ -574,7 +573,6 @@
 			(type default)
 		)
 		(layer "User.9")
-		(net 108)
 		(uuid "6caea3d3-0460-4dda-8a63-a55f60e410dd")
 	)
 	(fp_line
@@ -585,7 +583,6 @@
 			(type default)
 		)
 		(layer "User.9")
-		(net 108)
 		(uuid "6950a783-1ac3-4b77-b8fe-595923c07dcb")
 	)
 	(fp_line
@@ -596,8 +593,33 @@
 			(type default)
 		)
 		(layer "User.9")
-		(net 108)
 		(uuid "96463c37-2356-46b6-b210-2035f2af54cf")
+	)
+	(fp_text user "mill"
+		(at -4.953 6.3754 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c97433d6-5d18-4bda-9c68-f264a18a4048")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "max"
+		(at -4.953 7.6708 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f7c327a9-8e4e-479e-b44f-12983f549de2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
 	)
 	(fp_text user "switch lower"
 		(at -18.796 -5.842 0)
@@ -649,24 +671,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(fp_text_box "mill-\nmax"
-		(start -6.05 4.2)
-		(end -1.55 8.2)
-		(layer "F.SilkS")
-		(uuid "a0846488-016a-4eff-afa3-02d9e12d3a62")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-		(border no)
-		(stroke
-			(width -0.000001)
-			(type solid)
 		)
 	)
 	(fp_text_box "height:\n choc lower body is 13.8 front to back\n gap for mouse bits at: 16 mm  (out of 17)\n"
