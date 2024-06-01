@@ -789,12 +789,6 @@
 		)
 	)
 	(junction
-		(at 124.46 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "183dae6f-9a48-40f0-a846-394abfadc2a9")
-	)
-	(junction
 		(at 124.46 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -838,7 +832,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 96.52) (xy 124.46 97.79)
+			(xy 124.46 96.52) (xy 124.46 102.87)
 		)
 		(stroke
 			(width 0)
@@ -866,16 +860,6 @@
 		)
 		(uuid "b3c062e0-eb55-4cf6-abcc-002dd1648d0c")
 	)
-	(wire
-		(pts
-			(xy 124.46 97.79) (xy 124.46 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d58cd7a5-ac0b-4f98-8814-c613e874b86a")
-	)
 	(text_box "${TITLE}"
 		(exclude_from_sim no)
 		(at 105.41 13.97 0)
@@ -894,25 +878,6 @@
 			(justify left top)
 		)
 		(uuid "9d526ae6-e5c5-4bf7-8078-b9f338072c9e")
-	)
-	(text_box "Linking one part of the column to the MCU"
-		(exclude_from_sim no)
-		(at 100.33 97.79 0)
-		(size 17.78 7.62)
-		(stroke
-			(width 0)
-			(type dot)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "9e12b52f-e588-4658-8981-d009951635e2")
 	)
 	(text_box "Linking the rows to the MCU\nis easier as they all wind up near the MCU"
 		(exclude_from_sim no)
@@ -1084,83 +1049,6 @@
 			(project "amoeba_choc14"
 				(path "/c1f16e18-f6ca-463c-9cde-8f3fe4c41e25"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "Conn_01x01_Pin_1")
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 119.38 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "11485d47-afbe-4c4b-9209-8f8ca9592b67")
-		(property "Reference" "J5"
-			(at 120.015 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 121.285 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Amoeba_Choc_Nar:Pin_D0.8mm_L7.0mm"
-			(at 119.38 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 119.38 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" "do not fit"
-			(at 119.38 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9b55e122-0b9e-48c6-aee4-5236f001d9d8")
-		)
-		(instances
-			(project "amoeba_choc14"
-				(path "/c1f16e18-f6ca-463c-9cde-8f3fe4c41e25"
-					(reference "J5")
 					(unit 1)
 				)
 			)
