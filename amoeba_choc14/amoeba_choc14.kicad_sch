@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "Amoeba Choc 14")
-		(date "2024-04-11")
-		(rev "0.1.0-alpha")
+		(date "2024-08-21")
+		(rev "0.1.0-alpha.2")
 		(comment 3 "A choc keyboard single-switch Amoeba PCB with Mill-Max hotswap")
 	)
 	(lib_symbols
