@@ -29,7 +29,7 @@
 		)
 	)
 	(property "Footprint" "Amoeba_Choc_Nar:pg1350-hotswap"
-		(at 0 0 0)
+		(at 0 10.4 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -37,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -49,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,11 +63,12 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(property "Config" "do not fit"
-		(at 0 0 0)
+		(at 0 12.3 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -408,7 +411,7 @@
 		(uuid "c42386d3-07a4-4085-8f8d-24cd43d9f281")
 	)
 	(fp_line
-		(start -4 -8)
+		(start -4.5 -8)
 		(end -6.35 -8)
 		(stroke
 			(width 0.05)
@@ -418,7 +421,7 @@
 		(uuid "19e64875-7943-4822-90b2-2b571bd82cd5")
 	)
 	(fp_line
-		(start -4 8)
+		(start -4.5 8)
 		(end -6.35 8)
 		(stroke
 			(width 0.05)
@@ -429,7 +432,7 @@
 	)
 	(fp_line
 		(start 6.35 -8)
-		(end 4 -8)
+		(end 4.5 -8)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -439,7 +442,7 @@
 	)
 	(fp_line
 		(start 6.35 8)
-		(end 4 8)
+		(end 4.5 8)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -709,9 +712,9 @@
 			(type dot)
 		)
 	)
-	(fp_text_box "Tick corners:\n- outer: choc spacing bounds 18 x 17 \n- inner: lower switch extent 14.5 x 13.8\n    hence hole we sit over"
+	(fp_text_box "Tick corners:\n- outer: choc spacing bounds - 18 x 17 \n- inner: lower switch extent - 14.5 x 13.8\n    hence hole we sit over"
 		(start -16.85 13.594)
-		(end 16.85 21.844)
+		(end 19.65 21.844)
 		(layer "User.9")
 		(uuid "9560ad79-1934-40c5-8ea7-7ee8cf91ecf5")
 		(effects
