@@ -1,9 +1,9 @@
 # Design choices
 
-## Panel is 5 x 5
+## Panel is 6 columns x 4 rows, matching each board half
 
-Two 5 x 5 panels fits the Dactyl 50 exactly,
-  yet having some extras is best.
+Hand wiring is easier with the panel layout and spacing
+  matching the built layout.
 The minimum JLC order of five panels gives sufficient extra
   for two complete Dactyls,
   which seems ideal for personal orders.

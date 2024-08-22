@@ -3,7 +3,7 @@
 There are many ways to wire up a Dactyl,
   these steps were useful for me.
 
-## Solder the wires on top of the pads, not through them
+## Solder on top of the pads, not through them
 
 The switch sits directly on the front of the amoeba,
   so a wire with a solder cone sticking through there

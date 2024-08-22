@@ -1,19 +1,28 @@
 # Ordering
 
-I've ordered from JLC, who seem good for small personal runs.
+I've ordered from JLC, which seems good for small personal runs.
 
-It is possible any given diode choice may be out of stock.
-If so you may need to switch between SOD-123 and SOD-323 footprints
-  and recreate the panel.
+## Part alternatives
 
-Suitable JLC stock numbers are:
+Any diode choice might be out of stock at times, 
+If so, various other diodes would work just fine,
+ though sticking with the existing SOD-323 will be the easiest.
+Or, possibly, you may need, or want, to switch between
+  SOD-123 and SOD-323 footprints and recreate the panel.
 
-- SOD-123: C81598
+Suitable JLC stock numbers include:
+
 - SOD-323: C2128
+- SOD-123: C81598
 
-## Board order settings
+## Order process
 
+### Board order settings
+
+- Material: FR-4
 - Layers: 2
+
+- Designs: 1
 - Delivery Format: Panel by Customer
 - Panel Format: 6 x 4
 - Thickness: 1.2 (As Mill-Max lip pushes board closer to Dactyl base.)
@@ -21,27 +30,31 @@ Suitable JLC stock numbers are:
 - Color, Finish: Your choice. ENIG isn't needed for keyboards.
 
 - Confirm production file: I usually do yes when PCBA is involved.
-- Remove Order number: Specify a location
+- Mark on PCB: Order number(Specify a location)
 
-## PCBA settings
+- Board cost: ~$12
+
+### PCBA settings
 
 - Economic, Top Side
 - Tooling: Added by customer
 - Confirm placement: Yes
 
-## Bill of Materials
+- PCBA cost: ~$10
 
-- File provided as: Complete file
+### Bill of Materials
 
-## Component placement
+- File provided as: Complete file (else it with give you way too many parts)
+
+### Component placement
 
 - Confirm that their little diode images have the white bar
   on the same side as the silkscreen end with the solid bar,
     not the end that has no bar.
 
-## Quote and Order
+### Quote and Order
 
-- Cost should be about $21 before shipping.
+- Cost should be about $23 before shipping.
 - Description: Office Appliance | keyboards
 - Save to cart
 - Shows in cart as item with two subparts (PCB and PCBA)
