@@ -1,7 +1,20 @@
-KiCad/AmoebaChocNarrow-backups
-KiCad/~AmoebaChocNarrow.kicad_pcb.lck
-KiCad/fp-info-cache
-KiCad Amoeba/AmoebaChocNarrow-backups
-KiCad Amoeba/~AmoebaChocNarrow.kicad_pcb.lck
-KiCad Amoeba/~AmoebaChocNarrow.kicad_sch.lck
-KiCad Amoeba/fp-info-cache
+
+kicad/amoeba_choc14/fp-info-cache
+kicad/amoeba_choc14/amoeba_choc14.kicad_prl
+kicad/amoeba_choc14/amoeba_choc14-backups
+kicad/amoeba_choc14/~amoeba_choc14.kicad_pcb.lck
+kicad/amoeba_choc14/~amoeba_choc14.kicad_sch.lck
+
+kicad/amoeba_choc14/production
+
+
+kicad/panel/fp-info-cache
+kicad/panel/AmoebaPanel.kicad_prl
+kicad/panel/AmoebaPanel-backups
+kicad/panel/~AmoebaPanel.kicad_pcb.lck
+
+kicad/panel/production
+kicad/panel/gerber
+kicad/panel/gerber.zip
+
+kicad/*\.kicad_prl
