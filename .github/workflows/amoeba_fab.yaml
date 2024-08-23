@@ -2,8 +2,8 @@ name: Fab amoeba on push KiCad
 on:
   push:
     paths:
-    - 'amoeba_choc14/*.kicad_sch'
-    - 'amoeba_choc14/*.kicad_pcb'
+    - 'kicad/amoeba_choc14/*.kicad_sch'
+    - 'kicad/amoeba_choc14/*.kicad_pcb'
   workflow_dispatch:
 
 jobs:

@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./${{ inputs.board }}
+        working-directory: ./kicad/${{ inputs.board }}
 
     steps:
       - name: Checkout
@@ -29,10 +29,10 @@ jobs:
       - name: KiBot
         uses: INTI-CMNB/KiBot@v2_dk6
         with:
-          config: ./bin/doc.kibot.yaml
-          schema: ./${{ inputs.board }}/${{ inputs.board }}.kicad_sch
-          board: ./${{ inputs.board }}/${{ inputs.board }}.kicad_pcb
-          dir: ./${{ inputs.board }}
+          config: ./kicad/bin/doc.kibot.yaml
+          schema: ./kicad/${{ inputs.board }}/${{ inputs.board }}.kicad_sch
+          board: ./kicad/${{ inputs.board }}/${{ inputs.board }}.kicad_pcb
+          dir: ./kicad/${{ inputs.board }}
           verbose: 1
 
       - name: Resize render, zip
@@ -46,7 +46,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: ${{ inputs.board }}-docs
-          path: ./${{ inputs.board }}/${{ inputs.board }}-Doc.zip
+          path: ./kicad/${{ inputs.board }}/${{ inputs.board }}-Doc.zip
 
       ####
       # Logs
@@ -62,7 +62,7 @@ jobs:
         with:
           name: ${{ inputs.board }}-docs_debug_logs
           path: |
-            ./${{ inputs.board }}/*.log
-            ./${{ inputs.board }}/*.txt
-            ./${{ inputs.board }}/doc_out/*.log
-            ./${{ inputs.board }}/doc_out/*.txt
+            ./kicad/${{ inputs.board }}/*.log
+            ./kicad/${{ inputs.board }}/*.txt
+            ./kicad/${{ inputs.board }}/doc_out/*.log
+            ./kicad/${{ inputs.board }}/doc_out/*.txt
