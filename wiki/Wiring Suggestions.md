@@ -3,15 +3,20 @@
 There are many ways to wire up a Dactyl,
   these steps were useful for me.
 
+## Use the PCB panel layout to do most of the wiring
+
+The columns and rows mirror the layout and spacing that is typical
+  within a Choc Dactyl keywell.
+
+## Tin the amoebas and add Mil-Max while still in the panel
+
+They're much easier to handle while still in a big clump.
+
 ## Solder on top of the pads, not through them
 
 The switch sits directly on the front of the amoeba,
   so a wire with a solder cone sticking through there
   won't help the switch anchor firmly in the amoeba and hotswap socket.
-
-## Tin the amoebas and add Mil-Max while still in the panel
-
-They're much easier to handle while still in a big clump.
 
 ## Use the extra column pad for the MCU connection
 

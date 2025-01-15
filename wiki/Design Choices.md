@@ -1,5 +1,10 @@
 # Design choices
 
+## No allocated screw recess
+
+There isn't much material under the top and bottom edges.
+So recessing that edge for a screw leaves an unsupported screw hole.
+
 ## Panel is 6 columns x 4 rows, matching each board half
 
 Hand wiring is easier with the panel layout and spacing
