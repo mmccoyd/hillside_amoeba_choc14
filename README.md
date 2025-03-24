@@ -1,10 +1,14 @@
-# Readme
+# Hillside Amoeba Choc14
 
-These are small single-switch PCBs for Choc spaced Dactyl keyboards.
+|                 |                 |
+|:-----------     |:----------------|
+| ![Panel front](https://github.com/mmccoyd/hillside_amoeba_choc14/wiki/image/AmoebaPanel.front.png) | ![Amoeba Use](https://github.com/mmccoyd/hillside_amoeba_choc14/wiki/image/use_back.png) |
+
+These are single-switch PCBs for Choc spaced Dactyl keyboards.
 
 They allow Choc 18 mm or narrower column spacing,
   sturdier column walls, and Mill-Max hot swap.
-Each has a diode, Mill-Max socket holes, and oval solder holes
+Each has a diode, Mill-Max socket holes, and solder holes
     for creating the switch matrix.
 Goals include
   allowing most of the matrix soldering to be done outside of the case
@@ -13,8 +17,9 @@ Goals include
 See the [wiki](https://github.com/mmccoyd/hillside_amoeba_choc14/wiki)
     for ordering details and wiring suggestions.
 Their use is illustrated in the
+    *Not yet released*
     [Hillside Dactyl 50](https://github.com/mmccoyd/hillside_dactyl_50)
-    build notes.
+    wiki.
 
 ## Size and fit
 
@@ -29,7 +34,7 @@ Side notches serve to keep the top to bottom position aligned
 
 ## Panel layout
 
-The panel spacing matches that seen in a typical Dactyl key well.
+The fabrication panel spacing matches that seen in a typical Dactyl key well.
 That simplifies building by allowing much of the wiring to be done
   before splitting the PCBs out of the panel.
 
@@ -48,18 +53,22 @@ That separation leaves a decent tab between the PCBs
 ## Status
 
 -   Amoeba
-    -   Seems fine.
+    -   Works well.
     -   Alpha.2 was used to build Hillside Dactyl 50 alpha.2
-    -   Smaller solder holes could be reasonable.
 -   Panel
-    -   Could use some silk and fiducial tweaks.
--   Build is currently done with a JLC button, not CI.
+    -   Seems fine. Some panel tweaks post alpha.2.
+-   Release prep is done with a JLCPCB plugin button, not yet GitHub CI.
 
 ## Images
 
-Images in a build are in the wiki.
+Images of use in a build are in the
+    *Not yet released*
+    [Hillside Dactyl 50 wiki](https://github.com/mmccoyd/hillside_dactyl_50).
 
-![Panel back](https://github.com/mmccoyd/hillside_amoeba_choc15/wiki/image/panel_back.png)
+![Use back](https://github.com/mmccoyd/hillside_amoeba_choc14/wiki/image/use_back.png)
+![Panel front](https://github.com/mmccoyd/hillside_amoeba_choc14/wiki/image/AmoebaPanel.front.png)
+![Panel back](https://github.com/mmccoyd/hillside_amoeba_choc14/wiki/image/AmoebaPanel.back.png)
+![Schematic](https://github.com/mmccoyd/hillside_amoeba_choc14/wiki/image/amoeba_choc14.svg)
 
 ## Other Choc Amoeba options
 
