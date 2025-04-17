@@ -9,7 +9,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "Amoeba Choc 14 Panel")
-		(date "2025-04-01")
+		(date "2025-04-16")
 		(rev "0.1.0-alpha.3")
 		(comment 2 "count 24")
 		(comment 3 "allowing choc spacing and Mill-Max hotswap")
