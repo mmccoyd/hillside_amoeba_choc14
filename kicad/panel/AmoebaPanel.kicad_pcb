@@ -121,7 +121,6 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
-			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -1293,19 +1292,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1892244c-5f9a-41b9-8ca8-83c516d89581")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -2.85 0)
 			(size 0.6 0.6)
@@ -4863,19 +4849,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6259290c-8487-46fd-a158-415b72a183fd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -2.85 0)
 			(size 0.6 0.6)
@@ -4984,19 +4957,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cd6e03e0-bee6-4629-8897-aba32cc2b610")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -2.85 0)
 			(size 0.6 0.6)
@@ -5105,19 +5065,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "644db649-0d3d-4de6-8142-410243bfa8bc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -2.85 0)
 			(size 0.6 0.6)
@@ -5226,19 +5173,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c197c6e6-12e4-4eac-bcf4-b0da5ed508d9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -2.85 0)
 			(size 0.6 0.6)
@@ -6156,18 +6090,6 @@
 			(layer "F.CrtYd")
 			(uuid "49c06c05-a0fd-4fa1-b8ab-c6e28489d300")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -1.1 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c1b09843-9c46-4a6a-9532-ea249843a456")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(fp_text_box "Need to be non-plated, per JLC"
 			(start -10.1 2.2)
 			(end 9.95 6)
@@ -6254,19 +6176,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8f9fe116-0a8a-4644-9eca-652b9203b71b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -1.9 0 90)
 			(size 0.6 0.6)
@@ -6361,19 +6270,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "74913deb-4f7a-40d5-9a28-05d8b35672bb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -2.85 0)
 			(size 0.6 0.6)
@@ -6791,19 +6687,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ec6b2582-207f-489b-b134-1f019626107d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -1.9 0 90)
 			(size 0.6 0.6)
@@ -6898,19 +6781,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a89aaa17-3184-4da7-83a4-4873c748942b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -2.85 0)
 			(size 0.6 0.6)
@@ -7019,19 +6889,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c73e046e-b256-4408-8ea6-d21c6db36b62")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -2.85 0)
 			(size 0.6 0.6)
@@ -7449,19 +7306,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fe9227c1-4f44-4f38-afef-e18f796571be")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -2.85 0)
 			(size 0.6 0.6)
@@ -7570,19 +7414,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "06869dd9-65ab-4521-ad61-f612835b7b68")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -1.9 0 90)
 			(size 0.6 0.6)
@@ -9556,19 +9387,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5cd42ea8-d6d7-4716-ace6-0107b6f82c00")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -2.85 0)
 			(size 0.6 0.6)
@@ -10462,19 +10280,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "36ebf247-86c2-4d81-bdf6-f6ced06611fb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -2.85 0)
 			(size 0.6 0.6)
@@ -11368,19 +11173,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "35efc4d4-1b09-44df-8c32-eb4659b643a3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -2.85 0)
 			(size 0.6 0.6)
@@ -12107,19 +11899,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3d60b763-19ea-4502-b54b-ed3a5a05c3a2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -2.85 0)
 			(size 0.6 0.6)
@@ -14107,19 +13886,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2f89efe5-21b7-4e93-b65f-7f920c372730")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -2.85 0)
 			(size 0.6 0.6)
@@ -14228,19 +13994,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "92427527-f50a-43f2-8e86-687e33b1becf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -2.85 0)
 			(size 0.6 0.6)
@@ -14349,19 +14102,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e97b7e9f-cc47-492e-a8ed-f07215cd730e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -2.85 0)
 			(size 0.6 0.6)
@@ -14470,19 +14210,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5b78b9ab-0adb-463b-9d39-58def5f78792")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -2.85 0)
 			(size 0.6 0.6)
@@ -15376,19 +15103,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "da8f7063-6507-4b84-bc9b-2080cf20e3c9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -2.85 0)
 			(size 0.6 0.6)
@@ -15497,19 +15211,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "000509be-145e-46e3-9b64-4254e90e157c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -2.85 0)
 			(size 0.6 0.6)
@@ -15618,19 +15319,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c7d30971-d2ce-4df4-8e14-94e430cae66a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -2.85 0)
 			(size 0.6 0.6)
@@ -16048,19 +15736,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5f441f05-ef44-431f-8d49-b4bfb644765a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -2.85 0)
 			(size 0.6 0.6)
@@ -16954,19 +16629,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "43604fa8-dbda-4213-bc66-0c7ecb4b73df")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -2.85 0)
 			(size 0.6 0.6)
@@ -17075,19 +16737,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "44647bfc-94f6-4543-afe7-1d2a98c40a18")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -2.85 0)
 			(size 0.6 0.6)
@@ -17196,19 +16845,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4e9c6a3b-bf51-4c38-93ea-ffe36dc7222c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -2.85 0)
 			(size 0.6 0.6)
@@ -17317,19 +16953,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a3ac4127-ef7b-458d-b083-3a5810a14a02")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -2.85 0)
 			(size 0.6 0.6)
@@ -17460,18 +17083,6 @@
 			(layer "F.Fab")
 			(uuid "02e2482e-c45f-433e-b9de-b55cd181ad39")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "693ce0b7-24fe-41e1-9c52-d3ad85cfe8a0")
-			(effects
-				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "" smd circle
 			(at 0 0 180)
 			(size 1 1)
@@ -17539,19 +17150,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2e373e52-1f13-4da0-b9ef-ddf2ac4ebcdb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -2.85 0)
 			(size 0.6 0.6)
@@ -17660,19 +17258,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8de47911-be8b-4cde-9437-c6f27227da5e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -2.85 0)
 			(size 0.6 0.6)
@@ -17781,19 +17366,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f4406864-eef4-41fe-94d7-428380f73e58")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -2.85 0)
 			(size 0.6 0.6)
@@ -17902,19 +17474,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a5cf1ac5-b2d2-441b-97a8-8c6260e9d437")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -2.85 0)
 			(size 0.6 0.6)
@@ -18808,19 +18367,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e768fef8-3a61-4a1e-b162-4c58d6737824")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -2.85 0)
 			(size 0.6 0.6)
@@ -19738,18 +19284,6 @@
 			(layer "F.CrtYd")
 			(uuid "941d6325-9f36-4cb5-a25b-f365c00a3b8b")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -1.1 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "37d672aa-9936-4e2d-ba74-11c652a71632")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(fp_text_box "Need to be non-plated, per JLC"
 			(start -10.1 2.2)
 			(end 9.95 6)
@@ -20644,18 +20178,6 @@
 			(fill no)
 			(layer "F.CrtYd")
 			(uuid "0f673450-5748-4c53-ab56-19bdec1d2d66")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -1.1 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "06ca203e-af99-4cdb-a129-75a82626eefc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(fp_text_box "Need to be non-plated, per JLC"
 			(start -10.1 2.2)
@@ -21837,19 +21359,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "39b25d80-d5cf-4ed6-b1a3-efc63b438d75")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -2.85 0)
 			(size 0.6 0.6)
@@ -22576,19 +22085,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "140bd8ec-73d3-4782-b2b0-1c84cd5c4b23")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -1.9 0 90)
 			(size 0.6 0.6)
@@ -22683,19 +22179,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "504b1f62-9b92-4a6d-b9fd-fba15af396b8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -2.85 0)
 			(size 0.6 0.6)
@@ -24374,19 +23857,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b57d26d8-36bd-473e-9a21-1729e5a78d0a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -2.85 0)
 			(size 0.6 0.6)
@@ -24495,19 +23965,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "19d788e0-5986-4d63-ac45-053b204ce24d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -2.85 0)
 			(size 0.6 0.6)
@@ -25401,19 +24858,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4050d12c-09f8-4623-9889-3bd64a7fbda4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -2.85 0)
 			(size 0.6 0.6)
@@ -25522,19 +24966,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6436297b-4636-45f1-9d7f-a93cb90dfad2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -2.85 0)
 			(size 0.6 0.6)
@@ -26283,18 +25714,6 @@
 			(layer "F.Fab")
 			(uuid "ab3b9b9a-3fbb-4f0a-9daf-f9c9dcef034f")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "198f3b96-6fa3-4c51-bf66-50ee5ad5c901")
-			(effects
-				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "" smd circle
 			(at 0 0 180)
 			(size 1 1)
@@ -26671,19 +26090,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "39e9c905-b8b5-41c5-8fce-31a339a883e3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -2.85 0)
 			(size 0.6 0.6)
@@ -26792,19 +26198,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "59bbc121-a5eb-49b7-96c7-622578d4b11d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -2.85 0)
 			(size 0.6 0.6)
@@ -26913,19 +26306,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d3c539e9-9a5d-4c3b-8c6e-d8aa177ee9fe")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -2.85 0)
 			(size 0.6 0.6)
@@ -29055,19 +28435,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7df2bcdc-7867-46fb-9087-7496dc85fe32")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -2.85 0)
 			(size 0.6 0.6)
@@ -29176,19 +28543,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "88cb062b-3d04-4cab-99f8-5ce6e847545f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -1.9 0 90)
 			(size 0.6 0.6)
@@ -29283,19 +28637,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a1805663-df9a-473a-9252-153df4482e6b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -2.85 0)
 			(size 0.6 0.6)
@@ -29426,18 +28767,6 @@
 			(layer "F.Fab")
 			(uuid "8724417a-104c-4ddc-a5da-b69bc321b504")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8ebc6862-fc69-41a9-8579-34b906b324bd")
-			(effects
-				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "" smd circle
 			(at 0 0)
 			(size 1 1)
@@ -29505,19 +28834,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "96839586-3fee-4bca-8acd-771ce7c2661e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -2.85 0)
 			(size 0.6 0.6)
@@ -29626,19 +28942,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5709a6ca-78e3-4272-85e0-b3aa6a4e9c2c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -2.85 0)
 			(size 0.6 0.6)
@@ -30056,19 +29359,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1e1c7b55-8e65-494b-8094-977539804afb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -2.85 0)
 			(size 0.6 0.6)
@@ -30177,19 +29467,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6abcd321-2a4d-4ea8-8034-9bc370c7c51a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -2.85 0)
 			(size 0.6 0.6)
@@ -30298,19 +29575,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "321002d2-c23f-4529-8dc3-e4767c802c8c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -2.85 0)
 			(size 0.6 0.6)
@@ -30728,19 +29992,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "95cd76a9-5604-4d9e-8531-7d1d0a8f00cf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -2.85 0)
 			(size 0.6 0.6)
@@ -31158,19 +30409,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "09506a1b-f1fd-432a-a9ab-29eb7d784a06")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -2.85 0)
 			(size 0.6 0.6)
@@ -32682,19 +31920,6 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "213bfc21-f7c9-4a4b-8b50-7184bfda2ba3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -1.9 0 90)
 			(size 0.6 0.6)
