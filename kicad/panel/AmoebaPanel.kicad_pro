@@ -218,14 +218,82 @@
       "mpn": ""
     },
     "layer_pairs": [],
-    "layer_presets": [],
+    "layer_presets": [
+      {
+        "activeLayer": -2,
+        "layers": [
+          2,
+          3,
+          7,
+          11,
+          15,
+          25,
+          29
+        ],
+        "name": "Back",
+        "renderLayers": [
+          "vias",
+          "footprint_text",
+          "footprint_anchors",
+          "ratsnest",
+          "footprints_front",
+          "footprints_back",
+          "footprint_values",
+          "footprint_references",
+          "tracks",
+          "drc_errors",
+          "drawing_sheet",
+          "bitmaps",
+          "pads",
+          "zones",
+          "drc_warnings",
+          "locked_item_shadows",
+          "conflict_shadows",
+          "shapes"
+        ]
+      },
+      {
+        "activeLayer": -2,
+        "layers": [
+          0,
+          1,
+          5,
+          9,
+          13,
+          25,
+          31,
+          55
+        ],
+        "name": "Front",
+        "renderLayers": [
+          "vias",
+          "footprint_text",
+          "footprint_anchors",
+          "ratsnest",
+          "footprints_front",
+          "footprints_back",
+          "footprint_values",
+          "footprint_references",
+          "tracks",
+          "drc_errors",
+          "drawing_sheet",
+          "bitmaps",
+          "pads",
+          "zones",
+          "drc_warnings",
+          "locked_item_shadows",
+          "conflict_shadows",
+          "shapes"
+        ]
+      }
+    ],
     "viewports": [
       {
-        "h": 122824749.99091467,
+        "h": 113426595.92219423,
         "name": "home",
-        "w": 132313737.89634997,
-        "x": 82943131.0518277,
-        "y": 42781966.069517165
+        "w": 136910363.19387007,
+        "x": 90683958.01520261,
+        "y": 44425841.6510319
       },
       {
         "h": 139863012.2358417,

@@ -11,8 +11,9 @@
 		(title "Amoeba Choc 14 Panel")
 		(date "2025-04-01")
 		(rev "0.1.0-alpha.3")
+		(comment 2 "count 24")
 		(comment 3 "allowing choc spacing and Mill-Max hotswap")
-		(comment 4 "24 Amoeba Choc 14s for Dactyl keyboards")
+		(comment 4 "Hillside Amoeba Choc 14: for Dactyl keyboards")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -56839,7 +56840,7 @@
 		)
 	)
 	(gr_text "X"
-		(at 208.25 123.6 -0)
+		(at 208.1 124 -0)
 		(layer "B.SilkS")
 		(uuid "6fb661dd-7a75-43ac-8c7e-9e4ef3e82500")
 		(effects
@@ -56863,7 +56864,7 @@
 		)
 	)
 	(gr_text "X"
-		(at 108.25 123.4 -0)
+		(at 108.1 124 -0)
 		(layer "B.SilkS")
 		(uuid "7e53c4dd-3a1e-481c-a145-2c2e9d07231f")
 		(effects
@@ -57019,7 +57020,7 @@
 		)
 	)
 	(gr_text "X"
-		(at 128.45 123.4 -0)
+		(at 128.1 124 -0)
 		(layer "B.SilkS")
 		(uuid "aafc0e4d-be8a-439a-a02a-077549de0bc9")
 		(effects
@@ -57103,7 +57104,7 @@
 		)
 	)
 	(gr_text "X"
-		(at 188.15 123.6 -0)
+		(at 188.1 124 -0)
 		(layer "B.SilkS")
 		(uuid "e3bd3a2d-ca2f-4bb5-a522-651c0d3b88b8")
 		(effects
@@ -57174,9 +57175,28 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text_box "${COMMENT2}"
+		(start 126.1875 55.625)
+		(end 132.4125 58.775)
+		(margins 0.75 0.75 0.75 0.75)
+		(layer "F.SilkS")
+		(uuid "0261eb17-b97d-4b1e-b93c-1557b1e83267")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left top)
+		)
+		(border no)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+	)
 	(gr_text_box "${COMMENT4}\n${COMMENT3}\n"
-		(start 105.275 51.25)
-		(end 148.225 54.8)
+		(start 105.275 51.025)
+		(end 148.225 54.575)
 		(margins 0.75 0.75 0.75 0.75)
 		(layer "F.SilkS")
 		(uuid "290cec27-ebd1-44b6-80a8-6a0e00815e23")
@@ -57194,8 +57214,8 @@
 		)
 	)
 	(gr_text_box "The spacing of this 4 x 6 grid matches a typical small choc Dactyl.\nMuch of the amoeba wiring can be done in the panel, where it is easer."
-		(start 158.925 51.35)
-		(end 219.975 55)
+		(start 159.125 51.075)
+		(end 217.075 54.725)
 		(margins 0.75 0.75 0.75 0.75)
 		(layer "F.SilkS")
 		(uuid "824f5ba3-2313-431c-89aa-1f272e97b4cb")
@@ -57231,9 +57251,9 @@
 			(type solid)
 		)
 	)
-	(gr_text_box "A tad more than choc 17 mm for 3D wire path"
-		(start 179.425 147.175)
-		(end 218.075 150.825)
+	(gr_text_box "The column spacing is a bit more than choc's\n17 mm to allow for the Dactyl 3D wire path."
+		(start 179.875 146.175)
+		(end 237.725 149.825)
 		(margins 0.75 0.75 0.75 0.75)
 		(layer "F.SilkS")
 		(uuid "fed6c618-71ca-4aa6-a13d-c97b77dd1637")
@@ -57251,8 +57271,8 @@
 		)
 	)
 	(gr_text_box "${TITLE}"
-		(start 25.175 15.1)
-		(end 84.725 25.05)
+		(start 104.225 20.125)
+		(end 163.775 30.075)
 		(margins 2.3 2.3 2.3 2.3)
 		(layer "User.9")
 		(uuid "838f8941-cad6-43ca-9e74-86c9f89beb1a")
@@ -57330,9 +57350,9 @@
 		(layer "F.SilkS")
 		(uuid "fee710e5-c99a-4ce0-a4bf-63017d2cecff")
 		(pts
-			(xy 189.15 141.6) (xy 209.15 141.6)
+			(xy 189.1 141.5) (xy 209.1 141.5)
 		)
-		(height 4.6)
+		(height 3.7)
 		(orientation 0)
 		(format
 			(prefix "")
@@ -57351,7 +57371,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "20 mm"
-			(at 209.35 144.5 0)
+			(at 209.3 143.5 0)
 			(layer "F.SilkS")
 			(uuid "fee710e5-c99a-4ce0-a4bf-63017d2cecff")
 			(effects
