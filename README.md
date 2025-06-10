@@ -17,7 +17,6 @@ Goals include
 See the [wiki](https://github.com/mmccoyd/hillside_amoeba_choc14/wiki)
     for ordering details and wiring suggestions.
 Their use is illustrated in the
-    *Not yet released*
     [Hillside Dactyl 50](https://github.com/mmccoyd/hillside_dactyl_50)
     wiki.
 
@@ -26,7 +25,7 @@ Their use is illustrated in the
 The PCBs are 13.7 wide x 16 mm deep.
 
 That is only as wide as the bottom of a choc switch,
-  but provides a small top and bottom lip 
+  but adds a small top and bottom lip
   to prevent removal of the switch from pulling the PCB out of the key well.
 Side notches serve to keep the top to bottom position aligned
   with the keyboard-body switch-socket hole and to
@@ -38,32 +37,26 @@ The fabrication panel spacing matches that seen in a typical Dactyl key well.
 That simplifies building by allowing much of the wiring to be done
   before splitting the PCBs out of the panel.
 
-The column separation of 20 mm
-  adds 2 mm to the choc 18 mm column separation
-  as a bit of slack for the intervening key well wall.
+The column separation in the panel
+  has a bit of slack for the intervening key well wall.
 This mirrors what is likely needed in the key well 
   for the usually parallel pinkie and index columns.
+The panel separation of 20 mm adds 2 mm to the choc 18 mm column separation.
 
-The row edge separation of 6 mm
-  adds 2 mm to the key well 3.8 mm separation
+The row edge-to-edge separation
+    leaves a decent tab between the PCBs
+    to grip with pliers to break the PCBs cleanly apart.
+The separation of 6 mm adds 2 mm to the key well 3.8 mm separation
   for a column of 16 mm PCBs with a 15 degree curve.
-That separation leaves a decent tab between the PCBs
-  to grip with pliers to break the PCBs cleanly apart.
 
 ## Status
 
--   Amoeba
-    -   Works well.
-    -   Alpha.2 was used to build Hillside Dactyl 50 alpha.2
--   Panel
-    -   Seems fine. Some panel tweaks post alpha.2.
--   Release prep is done with a JLCPCB plugin button, not yet GitHub CI.
+Works well. Alpha.2 was used to build my Hillside Dactyl 50 alpha.2
 
 ## Images
 
 Images of use in a build are in the
-    *Not yet released*
-    [Hillside Dactyl 50 wiki](https://github.com/mmccoyd/hillside_dactyl_50).
+    [Hillside Dactyl 50](https://github.com/mmccoyd/hillside_dactyl_50) wiki.
 
 ![Use back](https://github.com/mmccoyd/hillside_amoeba_choc14/wiki/image/use_back.png)
 ![Panel front](https://github.com/mmccoyd/hillside_amoeba_choc14/wiki/image/AmoebaPanel.front.png)
