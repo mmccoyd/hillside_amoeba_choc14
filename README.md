@@ -8,8 +8,10 @@ These are single-switch PCBs for Choc spaced Dactyl keyboards.
 
 They allow Choc 18 mm or narrower column spacing,
   sturdier column walls, and Mill-Max hot swap.
-Each has a diode, Mill-Max socket holes, and solder holes
-    for creating the switch matrix.
+Each has a PCBA SOD-123 diode, holes for a Choc v1 switch with optional
+    Mill-Max sockets, and wire solder holes for creating the switch matrix.
+The diode is from column anode+ to row cathode-.
+
 Goals include
   allowing most of the matrix soldering to be done outside of the case
   and allowing reuse of the switches and matrix in a future case.
@@ -28,7 +30,7 @@ That is only as wide as the bottom of a choc switch,
   but adds a small top and bottom lip
   to prevent removal of the switch from pulling the PCB out of the key well.
 Side notches serve to keep the top to bottom position aligned
-  with the keyboard-body switch-socket hole and to
+  with the keyboard-body's switch-socket hole and to
   prevent the PCB from falling into the switch hole.
 
 ## Panel layout
@@ -49,9 +51,11 @@ The row edge-to-edge separation
 The separation of 6 mm adds 2 mm to the key well 3.8 mm separation
   for a column of 16 mm PCBs with a 15 degree curve.
 
-## Status
+## Version status
 
-Works well. Alpha.2 was used to build my Hillside Dactyl 50 alpha.2
+-   Alpha.4: Net yet tested. Has the larger SOD-123 diodes for hand soldering.
+-   Alpha.3: Used without PCBA by A SadWitch. Has the small SOD-323 diodes.
+-   Alpha.2: I used with PCBA for my Hillside Dactyl 50 alpha.2 and alpha.3.
 
 ## Images
 
@@ -74,3 +78,4 @@ There are a few other choc Amoebas, though they have wider footprints:
 - [MxLEDBit](https://keycapsss.com/keyboard-parts/pcbs/173/mxledbit-single-switch-pcb-mx-choc-hot-swap-socket)
   with SK6812-mini-e LED and no hotswap.
 - [Skree](https://www.skree.us) has MX spaced amoebas that also take choc switches.
+- [su120](https://github.com/kissetfall/su120-keyboard/tree/master)
