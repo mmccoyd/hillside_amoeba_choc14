@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "Amoeba Choc 14")
-		(date "2025-03-30")
-		(rev "0.1.0-alpha.3")
+		(date "2025-06-28")
+		(rev "0.1.0-alpha.4")
 		(comment 3 "A choc keyboard single-switch Amoeba PCB with Mill-Max hotswap")
 	)
 	(lib_symbols
@@ -1268,7 +1268,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 139.7 102.87 0)
 			(effects
 				(font
@@ -1313,7 +1313,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2128"
+		(property "LCSC" "C81598"
 			(at 139.7 102.87 0)
 			(effects
 				(font
